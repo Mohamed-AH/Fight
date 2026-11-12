@@ -27,22 +27,22 @@ Status: **draft, waiting for the owner's approval.**
 
 ## Chapters
 
-The episode has 17 chapter markers; they group into 10 chapters. References are to the transcript's `[chapter.line]` numbering. Timestamps will be added once we have the video's chapter times.
+The episode (1:46:51) has 17 chapter markers; they group into 12 chapters. Start times come from the video description (`research/chapter-times.yml`). Inside a chapter, points link to the start of their episode chapter, since the transcript itself has no timestamps.
 
-| # | Title (EN) | Title (AR) | Episode chapters | What the reader learns |
-|---|---|---|---|---|
-| 1 | Life on replay | الحياة إعادة بث | 1–2 | Three truths: what happens was written before; nobody is loaded beyond what they can carry; good can hide inside a hardship (the liver transplant that turned out unnecessary). |
-| 2 | Reward or punishment? | ثوابًا أم عقابًا؟ | 3 | Why trouble is built into this world, why it often arrives "from the womb of joy", and why "may you never see harm" is, strictly, a wish for death. |
-| 3 | Two laws: things fade, people clash | قانونان: النقص والصراع | 4–5 | Every pleasure fades (the waterfall you stop noticing); conflict is everywhere, even in families and marriages, and understanding each other's nature lowers it. |
-| 4 | Four ways to receive a crisis | أربع مراتب في تلقي الأزمات | 6 | Discontent, patience, contentment, gratitude; and why even the closest to God were not spared. |
-| 5 | The hidden good | الخِيرة خفية | 7 | Good does not walk beside a crisis, it follows it; "do not accuse God in His decree"; the kidney that was removed in time. |
-| 6 | Complain to whom? | الشكوى لمن؟ | 8 | Complaining to people reopens the wound; complaining to God; and venting wisely, only to someone with sound judgment who keeps secrets. |
-| 7 | The road to contentment | الطريق إلى الرضا | 9 | Umar's two options; the guest's own posting to Tabuk that he refused and then accepted; why grief and discontent harm the body. |
-| 8 | What blocks contentment | موانع الرضا | 10–11 | Unfair comparison, treating gifts as rights, expecting perfection, complainers' company, "social disconnection" media, believing a hard time is permanent, and harsh self-talk. |
-| 9 | Gratitude: three blessings before sleep | الامتنان: ثلاث نعم قبل النوم | 12 | Gratitude as a habit, and the nightly three-blessings exercise. |
-| 10 | Standing by someone in a crisis | حين يمرّ غيرك بأزمة | 13–14 | Restoring a friend's balance (eye contact, no blame, "you made the right call with what you knew then"), and words that wound patients in hospitals. |
-| 11 | Are we fragile? | هل نحن هشّون؟ | 15 | Fragility over small things; managing the heart (trust, good expectation of God, acceptance that is not surrender) and the mind. |
-| 12 | Practical steps through a crisis | خطوات عملية لتجاوز الأزمة | 16–17 | A checklist: don't give the worry a chair, don't withdraw, count what remains, keep life's circles separate, care for yourself, accept failure, say "I'm sorry" first, do something kind, speak to yourself like a friend; and career setbacks and unemployment. |
+| # | Title (EN) | Title (AR) | Episode chapters | Starts | What the reader learns |
+|---|---|---|---|---|---|
+| 1 | Life on replay | الحياة إعادة بث | 1–2 | 0:02:28 | Three truths: what happens was written before; nobody is loaded beyond what they can carry; good can hide inside a hardship (the liver transplant that turned out unnecessary). |
+| 2 | Reward or punishment? | ثوابًا أم عقابًا؟ | 3 | 0:08:12 | Why trouble is built into this world, why it often arrives "from the womb of joy", and why "may you never see harm" is, strictly, a wish for death. |
+| 3 | Two laws: things fade, people clash | قانونان: النقص والصراع | 4–5 | 0:17:28 | Every pleasure fades (the waterfall you stop noticing); conflict is everywhere, even in families and marriages, and understanding each other's nature lowers it. |
+| 4 | Four ways to receive a crisis | أربع مراتب في تلقي الأزمات | 6 | 0:25:46 | Discontent, patience, contentment, gratitude; and why even the closest to God were not spared. |
+| 5 | The hidden good | الخِيرة خفية | 7 | 0:29:04 | Good does not walk beside a crisis, it follows it; "do not accuse God in His decree"; the kidney that was removed in time. |
+| 6 | Complain to whom? | الشكوى لمن؟ | 8 | 0:32:50 | Complaining to people reopens the wound; complaining to God; and venting wisely, only to someone with sound judgment who keeps secrets. |
+| 7 | The road to contentment | الطريق إلى الرضا | 9 | 0:36:49 | Umar's two options; the guest's own posting to Tabuk that he refused and then accepted; why grief and discontent harm the body. |
+| 8 | What blocks contentment | موانع الرضا | 10–11 | 0:47:10 | Unfair comparison, treating gifts as rights, expecting perfection, complainers' company, "social disconnection" media, believing a hard time is permanent, and harsh self-talk. |
+| 9 | Gratitude: three blessings before sleep | الامتنان: ثلاث نعم قبل النوم | 12 | 0:59:30 | Gratitude as a habit, and the nightly three-blessings exercise. |
+| 10 | Standing by someone in a crisis | حين يمرّ غيرك بأزمة | 13–14 | 1:05:08 | Restoring a friend's balance (eye contact, no blame, "you made the right call with what you knew then"), and words that wound patients in hospitals. |
+| 11 | Are we fragile? | هل نحن هشّون؟ | 15 | 1:15:09 | Fragility over small things; managing the heart (trust, good expectation of God, acceptance that is not surrender) and the mind. |
+| 12 | Practical steps through a crisis | خطوات عملية لتجاوز الأزمة | 16–17 | 1:22:04 | A checklist: don't give the worry a chair, don't withdraw, count what remains, keep life's circles separate, care for yourself, accept failure, say "I'm sorry" first, do something kind, speak to yourself like a friend; and career setbacks and unemployment. |
 
 (That is 12, not 10: chapters 10–12 are long and practical enough to stand alone. Merging 10 and 11 is an option.)
 
@@ -82,10 +82,11 @@ The site presents the guest's faith-based views as his views and adds evidence w
 - Many stories are about death, illness and loss. Keep the real people unnamed, as he did.
 - Add a short, gentle note on the home and practical-steps pages: if a crisis is too heavy to carry, talk to a doctor or a mental-health professional (the guest's advice is not a substitute).
 - Marital "nature" (chapter 3) is presented as his view, briefly.
+- Chapter 2's premise (life on earth as a punishment after Adam's descent) is contested: the top YouTube comment points out the view that God made humans stewards (خلفاء) on earth to worship Him and build it. The site presents the guest's view as his and notes that other scholars frame it differently, with the verses for both.
 
 ## Still needed
 
-- The video's chapter timestamps (from the YouTube description) and its exact title, date and length, so every point can link to its moment. Until then, chapter links open the video at the start.
+- Nothing blocking. Received: title "How to Deal with Life's Crises | Petroly Podcast", length 1:46:51, and the 17 chapter start times.
 
 ## Left out
 

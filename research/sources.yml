@@ -3,15 +3,16 @@
 
 - id: S1
   type: podcast
-  title: ""            # episode title as published on YouTube: still to confirm
+  title: "How to Deal with Life's Crises | Petroly Podcast"
   title_en: "Handling life's crises: how to hold steady in the hardest times"  # our rendering of the host's introduction
   publisher: "Petroly podcast (بودكاست بترولي), Mukhtalif radio (إذاعة مختلف)"
   host: "Ahmed Attar (أحمد عطار)"
   guest: "Dr. Saad Abdulrahman Al-Arifi (د. سعد عبدالرحمن العريفي), university professor and trainer in the arts of influence and persuasion (as introduced by the host)"
   url: "https://www.youtube.com/watch?v=MSsimWznk3U"
-  published: ""        # still to confirm
+  published: "2026-11-04"   # approximate: "8d ago" on 2026-11-12
   language: ar
-  length: ""           # still to confirm
+  length: "1:46:51"
+  chapter_times: "chapter-times.yml"
   chapters: 17         # the transcript follows the episode's 17 chapter markers
   transcript: "transcripts/S1.txt"
   transcript_note: "Arabic, Saudi dialect, apparently machine-generated (no diacritics, some misheard words), with the episode's 17 chapter titles. No timestamps, so each line is referenced as [chapter.line], e.g. S1@07.024. Uploaded by the owner on 2026-11-12."
