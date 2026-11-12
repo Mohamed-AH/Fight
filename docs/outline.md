@@ -82,7 +82,6 @@ The site presents the guest's faith-based views as his views and adds evidence w
 - Many stories are about death, illness and loss. Keep the real people unnamed, as he did.
 - Add a short, gentle note on the home and practical-steps pages: if a crisis is too heavy to carry, talk to a doctor or a mental-health professional (the guest's advice is not a substitute).
 - Marital "nature" (chapter 3) is presented as his view, briefly.
-- Chapter 2's premise (life on earth as a punishment after Adam's descent) is contested: the top YouTube comment points out the view that God made humans stewards (خلفاء) on earth to worship Him and build it. The site presents the guest's view as his and notes that other scholars frame it differently, with the verses for both.
 
 ## Still needed
 
