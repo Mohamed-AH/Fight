@@ -12,7 +12,9 @@ Status: **draft, waiting for the owner's approval.**
 
 **Ideas**, like Claiming Ideas: a conversation that builds concepts, with stories as evidence. Each chapter: opening quote, "From the episode", "The idea, explained", "Try it", "Key terms".
 
-## Name (pick one)
+## Name
+
+**Chosen by the owner: Life on Replay · الحياة إعادة بث.**
 
 | | English | Arabic | Why |
 |---|---|---|---|

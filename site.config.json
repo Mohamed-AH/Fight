@@ -2,34 +2,72 @@
   "_comment": "Every project-specific setting lives here. build.mjs and the checks read it; nothing else is hard-coded.",
   "url": "https://fight.pages.dev",
   "themeColor": "#12343b",
-  "languages": ["en", "ar"],
+  "languages": [
+    "en",
+    "ar"
+  ],
   "episode": {
-    "video": "https://www.youtube.com/watch?v=VIDEO_ID",
+    "video": "https://www.youtube.com/watch?v=MSsimWznk3U",
     "length": "0:00:00"
   },
   "fonts": {
-    "preload": { "en": "literata-latin-400", "ar": "noto-naskh-arabic-arabic-400" }
+    "preload": {
+      "en": "literata-latin-400",
+      "ar": "noto-naskh-arabic-arabic-400"
+    }
   },
   "ui": {
     "en": {
-      "dir": "ltr", "locale": "en_GB",
-      "site": "Site name", "tagline": "A study companion to a podcast episode",
+      "dir": "ltr",
+      "locale": "en_GB",
+      "site": "Life on Replay",
+      "tagline": "A study companion to a conversation on facing life's crises",
       "footer": "An independent study aid. Not affiliated with the podcast or its guests.",
-      "chapter": "Chapter", "chapters": "Chapters", "inVideo": "In the video", "watchFrom": "Watch from",
-      "watch": "Watch the episode", "prev": "Previous", "next": "Next", "home": "Home", "glossary": "Glossary",
-      "sources": "Sources and About", "other": "العربية", "theme": "Switch light or dark theme",
-      "menu": "Menu", "close": "Close menu", "skip": "Skip to content", "fig": "Fig.",
-      "mainNav": "Page navigation", "topNav": "Site menu", "table": "Table"
+      "chapter": "Chapter",
+      "chapters": "Chapters",
+      "inVideo": "In the video",
+      "watchFrom": "Watch from",
+      "watch": "Watch the episode",
+      "prev": "Previous",
+      "next": "Next",
+      "home": "Home",
+      "glossary": "Glossary",
+      "sources": "Sources and About",
+      "other": "العربية",
+      "theme": "Switch light or dark theme",
+      "menu": "Menu",
+      "close": "Close menu",
+      "skip": "Skip to content",
+      "fig": "Fig.",
+      "mainNav": "Page navigation",
+      "topNav": "Site menu",
+      "table": "Table"
     },
     "ar": {
-      "dir": "rtl", "locale": "ar_SA",
-      "site": "اسم الموقع", "tagline": "رفيق دراسي لحلقة بودكاست",
+      "dir": "rtl",
+      "locale": "ar_SA",
+      "site": "الحياة إعادة بث",
+      "tagline": "رفيق دراسي لحوار عن مواجهة أزمات الحياة",
       "footer": "دليل دراسي مستقل، لا يتبع البودكاست ولا ضيوفه.",
-      "chapter": "الفصل", "chapters": "الفصول", "inVideo": "في الحلقة", "watchFrom": "شاهد من",
-      "watch": "شاهد الحلقة", "prev": "السابق", "next": "التالي", "home": "الرئيسية", "glossary": "المسرد",
-      "sources": "المصادر وعن الموقع", "other": "English", "theme": "تبديل الوضع الفاتح أو الداكن",
-      "menu": "القائمة", "close": "إغلاق القائمة", "skip": "تخطَّ إلى المحتوى", "fig": "شكل",
-      "mainNav": "التنقل بين الصفحات", "topNav": "قائمة الموقع", "table": "جدول"
+      "chapter": "الفصل",
+      "chapters": "الفصول",
+      "inVideo": "في الحلقة",
+      "watchFrom": "شاهد من",
+      "watch": "شاهد الحلقة",
+      "prev": "السابق",
+      "next": "التالي",
+      "home": "الرئيسية",
+      "glossary": "المسرد",
+      "sources": "المصادر وعن الموقع",
+      "other": "English",
+      "theme": "تبديل الوضع الفاتح أو الداكن",
+      "menu": "القائمة",
+      "close": "إغلاق القائمة",
+      "skip": "تخطَّ إلى المحتوى",
+      "fig": "شكل",
+      "mainNav": "التنقل بين الصفحات",
+      "topNav": "قائمة الموقع",
+      "table": "جدول"
     }
   }
 }

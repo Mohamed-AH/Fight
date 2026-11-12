@@ -1,11 +1,11 @@
 ---
-title: "Site name"
+title: "Life on Replay"
 description: "A bilingual study companion to a podcast episode. Replace this with one sentence on what the episode teaches."
 kicker: "A study companion · English and Arabic"
 subtitle: "One line on what the episode is about"
 ---
 
-# Site name
+# Life on Replay
 
 **The episode in one paragraph.** Placeholder. Stage 4 of the playbook replaces this page with the episode's argument, who is speaking, and how to use the site.
 
