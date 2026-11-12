@@ -4,6 +4,9 @@
 //   YouTube "Show transcript" copied text:  0:022 seconds Text   /   1:051 minute, 5 seconds Text
 //   plain lines:                            0:02 Text   /   [00:01:05] Text
 //   .srt and .vtt subtitle files
+//   a transcript with no timestamps at all, split by "### Chapter N: title" lines:
+//     each line gets a reference "[NN.LLL]" (chapter number, line number within the chapter),
+//     so facts can still point to an exact place: source "S1@07.012"
 // Lines that are not captions (e.g. "Chapter 1: Intro") are kept as "## Chapter 1: Intro".
 import fs from 'node:fs';
 
@@ -20,7 +23,20 @@ function hms(t) {
 
 const out = [];
 const isSub = /-->/.test(raw);
-if (isSub) {
+const hasTimes = /^\[?\d{1,2}:\d{2}/m.test(raw);
+if (!isSub && !hasTimes) {
+  // no timestamps: number the lines inside each chapter
+  let ch = 0; let n = 0;
+  for (let l of raw.split('\n')) {
+    l = l.replace(/\\([[\]])/g, '$1').replace(/\s+/g, ' ').trim();
+    if (!l) continue;
+    const m = l.match(/^#+\s*Chapter\s+(\d+)\s*[:：-]?\s*(.*)$/i);
+    if (m) { ch = Number(m[1]); n = 0; out.push(`## Chapter ${m[1]}: ${m[2]}`); continue; }
+    if (!ch) { out.push(`## ${l}`); continue; }
+    n += 1;
+    out.push(`[${pad(ch)}.${String(n).padStart(3, '0')}] ${l}`);
+  }
+} else if (isSub) {
   // .srt / .vtt: blocks of [index] / start --> end / text lines
   for (const block of raw.split(/\n\s*\n/)) {
     const lines = block.split('\n').filter(Boolean);
@@ -47,4 +63,4 @@ if (isSub) {
   }
 }
 process.stdout.write(out.join('\n') + '\n');
-console.error(`${out.filter((l) => l.startsWith('[')).length} caption lines.`);
+console.error(`${out.filter((l) => l.startsWith('[')).length} lines.`);
