@@ -1,0 +1,16 @@
+# Every source the site draws on. Internal only: this folder is not published.
+# To add a source, copy a block, give it the next id (S2, S3, ...) and fill it in.
+
+- id: S1
+  type: podcast
+  title: ""            # episode title as published
+  title_en: ""         # English rendering if the original is Arabic
+  publisher: ""        # programme / network
+  host: ""
+  guest: ""            # name, role, why they are worth hearing
+  url: ""              # YouTube or podcast link
+  published: ""        # YYYY-MM-DD
+  language: ar
+  length: ""           # h:mm:ss
+  transcript: "transcripts/S1.txt"
+  transcript_note: ""  # where the transcript came from, who translated it
