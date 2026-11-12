@@ -1,12 +1,35 @@
 # Names of people, places and key terms as written on the site, in English and Arabic.
-# Internal only.
-#
-#   en:          spelling used on the English site
-#   ar:          spelling used on the Arabic site
-#   transcript:  spelling in the transcript, if different
-#   check:       true = please verify the spelling against the audio
-#   note:        why it needs checking
+# Internal only. The transcript is machine-generated Arabic without hamzas or diacritics,
+# so spellings below are normalised. `check: true` = confirm against the audio.
 
-people: []
-places: []
-terms: []
+people:
+  - {en: "Dr. Saad Al-Arifi", ar: "د. سعد العريفي", transcript: "سعد عبد الرحمن العريفي", note: "Full name as he signs it in the Tabuk story: Saad Abdulrahman Al-Arifi."}
+  - {en: "Ahmed Attar", ar: "أحمد عطار", transcript: "احمد عطار"}
+  - {en: "Anas ibn Malik", ar: "أنس بن مالك"}
+  - {en: "Umar ibn al-Khattab", ar: "عمر بن الخطاب"}
+  - {en: "Uqba ibn Abi Mu'ayt", ar: "عقبة بن أبي معيط", transcript: "عقبه بن ابي معط"}
+  - {en: "Hamza", ar: "حمزة"}
+  - {en: "Al-Ahnaf ibn Qays", ar: "الأحنف بن قيس", transcript: "الاحنف ابن قيس"}
+  - {en: "Abu al-Ayna'", ar: "أبو العيناء"}
+  - {en: "Al-Mulabbab ibn Awf", ar: "الملبّب بن عوف", transcript: "الملبب ابن عوف", check: true, note: "Visitor to the Himyarite king; spelling uncertain."}
+  - {en: "Dhu Fa'ish (Salama)", ar: "سلامة ذو فائش", transcript: "سلامه ذو فاحش", check: true, note: "Himyarite king; transcript is garbled."}
+  - {en: "Al-Bulayhi", ar: "البليهي", note: "Ministry official in the Tabuk story; first name not given."}
+  - {en: "Carl Jung", ar: "كارل يونغ", transcript: "كارل يانج", check: true, note: "Quote attribution unverified (F147); not used."}
+places:
+  - {en: "Tabuk", ar: "تبوك"}
+  - {en: "Bisha", ar: "بيشة"}
+  - {en: "Najran", ar: "نجران"}
+  - {en: "Abha", ar: "أبها"}
+  - {en: "Riyadh", ar: "الرياض"}
+  - {en: "Uhud", ar: "أُحد"}
+terms:
+  - {en: "contentment", ar: "الرضا"}
+  - {en: "the hidden good (al-khira)", ar: "الخِيرة"}
+  - {en: "discontent and panic", ar: "السخط والجزع"}
+  - {en: "patience", ar: "الصبر"}
+  - {en: "gratitude", ar: "الشكر / الامتنان"}
+  - {en: "venting", ar: "الفضفضة"}
+  - {en: "psychological fragility", ar: "الهشاشة النفسية"}
+  - {en: "psychological balance", ar: "التوازن النفسي"}
+  - {en: "social disconnection media", ar: "وسائل التقاطع الاجتماعي"}
+  - {en: "the permanence of circumstances", ar: "دوام الحال"}

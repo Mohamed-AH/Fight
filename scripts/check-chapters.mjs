@@ -21,7 +21,7 @@ for (const lang of CONFIG.languages) {
   if (!fs.existsSync(dir)) continue;
   for (const file of fs.readdirSync(dir).filter((f) => f.endsWith('.md')).sort()) {
     const { data, content } = matter(fs.readFileSync(path.join(dir, file), 'utf8'));
-    if (!data.chapter) continue;
+    if (!data.chapter) { factIds(content).forEach((i) => { used[lang].add(i); if (!facts[i]) bad(`content/${lang}/${file}: unknown fact ${i}`); }); continue; }
     const rel = `content/${lang}/${file}`;
     const ids = new Set();
     let exempt = false;

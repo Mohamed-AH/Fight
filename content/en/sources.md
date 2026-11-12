@@ -7,7 +7,8 @@ description: "The episode this site is based on, the sources it cites, and who m
 
 ## The episode
 
-- Placeholder: guest, host, programme, [video link](https://www.youtube.com/watch?v=VIDEO_ID), length.
+- *How to Deal with Life's Crises*, Petroly podcast (بودكاست بترولي), Mukhtalif radio. Ahmed Attar in conversation with Dr. Saad Al-Arifi. [YouTube](https://www.youtube.com/watch?v=MSsimWznk3U), 1:46:51.
+- The episode is in Saudi Arabic. Quotes on this site are our translations and are lightly condensed. The site follows the episode's own 17 chapter markers, grouped into 12 chapters.
 
 ## Sources cited
 

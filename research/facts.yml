@@ -2,24 +2,1324 @@
 #
 # Fields:
 #   id:      F001, F002, ... (never reuse an id; new facts get the next free number)
-#   chapter: the chapter's file name without .md (e.g. 03-research-centres)
+#   chapter: the site chapter's file name without .md (00-home = home page)
 #   claim:   the fact in one sentence, in English
-#   source:  "SOURCE_ID@h:mm:ss" (source ids are in sources.yml)
-#   quote:   words copied exactly from the transcript at that timestamp, so the
-#            claim can be checked. `npm run check:facts` verifies them.
-#   status:  from-source  stated by the source, not yet checked elsewhere
-#            check        needs checking (unclear translation, name, date or number)
-#            disputed     the source itself, or sources, disagree (see note)
-#            opinion      the speaker's view, not a fact; the site presents it as their view
+#   source:  "S1@NN.LLL" = transcript S1, episode chapter NN, line LLL (see transcripts/S1.txt)
+#   quote:   words copied exactly from the transcript at that line (or running on into the next),
+#            so the claim can be checked. `npm run check:facts` verifies them.
+#   status:  from-source  stated in the episode, not yet checked elsewhere
+#            check        needs checking (a figure, an attribution, a medical or scientific claim)
+#            disputed     sources disagree (see note)
+#            opinion      the guest's view or advice; the site presents it as his
 #            verified     confirmed against a second source (say which in note)
-#   note:    anything a reviewer should know
+#   note:    anything a reviewer should know (verse and hadith references go here)
 #
-# Example:
-# - id: F001
-#   chapter: 01-introduction
-#   claim: "The guest founded the company in 2016."
-#   source: "S1@0:04:12"
-#   quote: "we started in 2016"
-#   status: from-source
-#   note: ""
-[]
+# S1 = Petroly podcast, Ahmed Attar with Dr. Saad Al-Arifi (Arabic transcript, no timestamps).
+
+
+# ---------------------------------------------------------------- 00-home
+- id: F001
+  chapter: 00-home
+  claim: "The host is Ahmed Attar and the show is the Petroly podcast from Mukhtalif radio."
+  source: "S1@01.012"
+  quote: "انا احمد عطار وهذا بودكاست بترولي من اذاعه مختلف"
+  status: from-source
+  note: ""
+- id: F002
+  chapter: 00-home
+  claim: "The guest, Dr. Saad Al-Arifi, is introduced as a university professor and a trainer in the arts of influence and persuasion."
+  source: "S1@01.013"
+  quote: "الدكتور سعد العريفي استاذ جامعي ومدرب في فنون التاثير والاقناع"
+  status: from-source
+  note: ""
+- id: F003
+  chapter: 00-home
+  claim: "The episode is about dealing with life's crises and how to hold steady in the hardest conditions."
+  source: "S1@01.014"
+  quote: "كيف تصمد في اشد الاحوال"
+  status: from-source
+  note: ""
+- id: F004
+  chapter: 00-home
+  claim: "The guest promises that the conversation will take the listener to 'the garden of contentment'."
+  source: "S1@01.016"
+  quote: "حديثي في هذا البودكاست سينقلك الى جنه الرضا"
+  status: opinion
+  note: ""
+
+# ---------------------------------------------------------------- 01-life-on-replay
+- id: F005
+  chapter: 01-life-on-replay
+  claim: "He says there are three things we must know about crises."
+  source: "S1@02.001"
+  quote: "احنا لازم ان احنا نعرف ثلاثه امور في حياتنا"
+  status: from-source
+  note: ""
+- id: F006
+  chapter: 01-life-on-replay
+  claim: "First: every crisis that befalls a person was written before they were created."
+  source: "S1@02.002"
+  quote: "بالانسان من ازمات هي مكتوبه قبل ان يخلق"
+  status: opinion
+  note: "Religious belief; he cites Qur'an 57:22."
+- id: F007
+  chapter: 01-life-on-replay
+  claim: "He quotes the verse 'so that you do not grieve over what you missed nor exult over what you were given'."
+  source: "S1@02.003"
+  quote: "لكي لا تاسوا على ما فاتكم ولا تفرحوا بما اتاكم"
+  status: from-source
+  note: "Qur'an 57:23."
+- id: F008
+  chapter: 01-life-on-replay
+  claim: "He compares life to a film already shown: 'we are now in the rebroadcast'."
+  source: "S1@02.006"
+  quote: "واحنا الان في اعاده البث"
+  status: opinion
+  note: ""
+- id: F009
+  chapter: 01-life-on-replay
+  claim: "His example: watching a recording of a match you know ended 2-0, you do not expect the result to change."
+  source: "S1@02.012"
+  quote: "انت وانت تشوف اعاده البث تتوقع تتغير النتيجه"
+  status: from-source
+  note: ""
+- id: F010
+  chapter: 01-life-on-replay
+  claim: "Second: God does not load a person with more than He knows they can bear."
+  source: "S1@02.015"
+  quote: "ان الله سبحانه وتعالى ترى لا يحملك الا ما يعلم انك"
+  status: opinion
+  note: ""
+- id: F011
+  chapter: 01-life-on-replay
+  claim: "His analogy: a factory writes the maximum load on a truck; load it beyond that and it cannot cope."
+  source: "S1@02.017"
+  quote: "حموله السياره كذا فاذا حملتها اكثر هي ما تطيق"
+  status: from-source
+  note: ""
+- id: F012
+  chapter: 01-life-on-replay
+  claim: "He quotes 'God does not burden a soul beyond its capacity'."
+  source: "S1@02.021"
+  quote: "يكلف الله نفسا الا وسعها"
+  status: from-source
+  note: "Qur'an 2:286."
+- id: F013
+  chapter: 01-life-on-replay
+  claim: "Third: the hardships people go through may hold good for them."
+  source: "S1@02.022"
+  quote: "ترى يكون فيها الخير لهم"
+  status: opinion
+  note: ""
+- id: F014
+  chapter: 01-life-on-replay
+  claim: "He cites the hadith of Anas: 'How wonderful is the affair of the believer: God decrees nothing for him but that it is good.'"
+  source: "S1@02.026"
+  quote: "عجبت لامر المؤمن لا يقضي الله له قضاء الا كان"
+  status: from-source
+  note: "Hadith (Muslim, from Suhayb; he attributes the narration to Anas). Check the narrator."
+- id: F015
+  chapter: 01-life-on-replay
+  claim: "A friend's colleague's father needed a liver donation, and one of his sons was a match."
+  source: "S1@02.029"
+  quote: "احتاج الى تبرع بكبد"
+  status: from-source
+  note: ""
+- id: F016
+  chapter: 01-life-on-replay
+  claim: "Hours before the operation, tests showed the father had a heart problem and needed a catheterisation first."
+  source: "S1@02.036"
+  quote: "التحاليل طلعت ان عندك مشكله في القلب انت محتاج قسطره"
+  status: from-source
+  note: ""
+- id: F017
+  chapter: 01-life-on-replay
+  claim: "A month later his liver was working and he no longer needed a transplant: blocked heart vessels had starved it of blood."
+  source: "S1@02.039"
+  quote: "حصلوا كبد وشغاله ما عاد تحتاج زراعه"
+  status: from-source
+  note: ""
+- id: F018
+  chapter: 01-life-on-replay
+  claim: "He quotes 'perhaps you dislike something and it is good for you'."
+  source: "S1@02.041"
+  quote: "عسى ان تكرهوا شيئا وهو خير لكم"
+  status: from-source
+  note: "Qur'an 2:216."
+
+# ---------------------------------------------------------------- 02-reward-or-punishment
+- id: F019
+  chapter: 02-reward-or-punishment
+  claim: "He asks: are we humans on earth as a reward or as a punishment?"
+  source: "S1@03.002"
+  quote: "احنا يا البشر موجودين فيها ثوابا ولا عقابا"
+  status: from-source
+  note: ""
+- id: F020
+  chapter: 02-reward-or-punishment
+  claim: "His answer: we came down to earth from paradise as a punishment, after Adam's disobedience."
+  source: "S1@03.004"
+  quote: "فاحنا الحين نازلين للارض من الجنه عقوبه"
+  status: opinion
+  note: "His view."
+- id: F021
+  chapter: 02-reward-or-punishment
+  claim: "His analogy: if he were angry with Ahmed and locked him in a room, he would not check that the air conditioning was cold."
+  source: "S1@03.007"
+  quote: "رميتك في الغرفه وقفلت عليك الباب"
+  status: from-source
+  note: "He adds that God is far more merciful than this; it is an analogy only."
+- id: F022
+  chapter: 02-reward-or-punishment
+  claim: "He quotes the verse 'We will surely test you with something of fear and hunger and loss of wealth...', noting it is phrased as an oath."
+  source: "S1@03.012"
+  quote: "ولنبلونكم بشيء من الخوف والجوع ونقص من الاموال"
+  status: from-source
+  note: "Qur'an 2:155."
+- id: F023
+  chapter: 02-reward-or-punishment
+  claim: "He says patience is mentioned about 90 times in the Qur'an."
+  source: "S1@03.015"
+  quote: "ذكر الصبر في القران 90 مره"
+  status: check
+  note: "Commonly cited figure; counts vary by method. Check against a concordance."
+- id: F024
+  chapter: 02-reward-or-punishment
+  claim: "He notes that in 'We test you with evil and good', evil comes first."
+  source: "S1@03.017"
+  quote: "ونبلوكم بالشر والخير ايش اللي جاء اول الشر"
+  status: from-source
+  note: "Qur'an 21:35."
+- id: F025
+  chapter: 02-reward-or-punishment
+  claim: "He says hardship sometimes comes 'from the womb of joy'."
+  source: "S1@03.020"
+  quote: "البلاء احيانا يجيك من رحم الفرح"
+  status: opinion
+  note: ""
+- id: F026
+  chapter: 02-reward-or-punishment
+  claim: "A neighbour, 25 years ago, stood lost at the mosque door: he did not know whether he had come in shoes or barefoot."
+  source: "S1@03.032"
+  quote: "والله الظاهر اني جيت حافي"
+  status: from-source
+  note: ""
+- id: F027
+  chapter: 02-reward-or-punishment
+  claim: "On a family trip to a beach chalet, the neighbour's 21-year-old daughter was found dead in her bed the first morning."
+  source: "S1@03.041"
+  quote: "لقوا البنت ميته على السرير"
+  status: from-source
+  note: ""
+- id: F028
+  chapter: 02-reward-or-punishment
+  claim: "He read of a man who dropped a pebble into a jar on every good day."
+  source: "S1@03.046"
+  quote: "اذا مر به يوم طيب اخذ حصاه"
+  status: from-source
+  note: ""
+- id: F029
+  chapter: 02-reward-or-punishment
+  claim: "Asked his age, the man counted the pebbles: he counted only the days he had spent at ease and happy."
+  source: "S1@03.049"
+  quote: "لا يعد من ايام عمره الا الايام التي قضاها وهو مرتاح"
+  status: from-source
+  note: ""
+- id: F030
+  chapter: 02-reward-or-punishment
+  claim: "He says blessings lengthen one's reckoning in the hereafter, while crises add to one's reward."
+  source: "S1@03.052"
+  quote: "فكلما كثرت عندك النعم كلما طال"
+  status: opinion
+  note: ""
+- id: F031
+  chapter: 02-reward-or-punishment
+  claim: "A wise man said that wishing someone 'may you never see harm' is like wishing them death, since the living must see harm."
+  source: "S1@03.057"
+  quote: "دعوت عليه بالموت فان الحي لابد ان يرى مكروها"
+  status: from-source
+  note: ""
+- id: F032
+  chapter: 02-reward-or-punishment
+  claim: "He says no one is free of worry, not even heads of state, kings, princes or ministers."
+  source: "S1@03.061"
+  quote: "بالمناصب العاليه من رؤساء الدول والملوك والامراء والوزراء"
+  status: opinion
+  note: ""
+- id: F033
+  chapter: 02-reward-or-punishment
+  claim: "He describes life as a set of pairs: life and death, health and sickness, happiness and misery."
+  source: "S1@03.063"
+  quote: "مجموعه ثنائيات عندنا حياه وموت"
+  status: opinion
+  note: ""
+- id: F034
+  chapter: 02-reward-or-punishment
+  claim: "Every person must drink from both cups."
+  source: "S1@03.065"
+  quote: "وكل انسان لابد ان يشرب من الكاسين"
+  status: opinion
+  note: ""
+
+# ---------------------------------------------------------------- 03-things-fade-people-clash
+- id: F035
+  chapter: 03-things-fade-people-clash
+  claim: "First law: life is built on decrease; every good thing wanes."
+  source: "S1@04.002"
+  quote: "الحياه اللي نعيش فيها هذه قائمه على النقص"
+  status: opinion
+  note: ""
+- id: F036
+  chapter: 03-things-fade-people-clash
+  claim: "Even in a house you own for 30 years, the delight of the first year does not last."
+  source: "S1@04.008"
+  quote: "استمتاعك او احساسك ودهشتك"
+  status: from-source
+  note: ""
+- id: F037
+  chapter: 03-things-fade-people-clash
+  claim: "Travellers stop for the first waterfall; by the fourth day they do not even point it out: they have got used to it."
+  source: "S1@04.012"
+  quote: "شوفوا الشلال تعود عليه"
+  status: from-source
+  note: ""
+- id: F038
+  chapter: 03-things-fade-people-clash
+  claim: "He quotes the saying 'the delicious does not stay delicious forever'."
+  source: "S1@04.014"
+  quote: "اللذيذ لا يبقى لذيذا الى الابد"
+  status: from-source
+  note: ""
+- id: F039
+  chapter: 03-things-fade-people-clash
+  claim: "Second law: it is the human lot to live in conflict."
+  source: "S1@04.016"
+  quote: "ان قدر الانسان ان يعيش في الصراع"
+  status: opinion
+  note: ""
+- id: F040
+  chapter: 03-things-fade-people-clash
+  claim: "The first event on earth was a conflict: Cain killing his brother Abel."
+  source: "S1@04.017"
+  quote: "لما قتل قابيل اخاه هابيل"
+  status: from-source
+  note: ""
+- id: F041
+  chapter: 03-things-fade-people-clash
+  claim: "Conflict runs through states, companies, water resources and colleagues at work."
+  source: "S1@04.018"
+  quote: "صراع بين الزملاء في العمل"
+  status: from-source
+  note: ""
+- id: F042
+  chapter: 03-things-fade-people-clash
+  claim: "He received a message from a man saying his greatest enemy in life is his father."
+  source: "S1@04.028"
+  quote: "انا اكبر عدو لي في الحياه هو ابوي"
+  status: from-source
+  note: ""
+- id: F043
+  chapter: 03-things-fade-people-clash
+  claim: "He says conflict with one's wife is natural."
+  source: "S1@05.001"
+  quote: "طبيعي صراع مع الزوجه"
+  status: opinion
+  note: ""
+- id: F044
+  chapter: 03-things-fade-people-clash
+  claim: "In his view God placed jealousy in a woman's nature."
+  source: "S1@05.012"
+  quote: "جعل في فطره المراه الغيره"
+  status: opinion
+  note: "His view; present briefly."
+- id: F045
+  chapter: 03-things-fade-people-clash
+  claim: "And inclination towards women in a man's nature, though he must restrain it."
+  source: "S1@05.016"
+  quote: "الميل الى النساء هذه فطره في الرجل"
+  status: opinion
+  note: "His view; present briefly."
+- id: F046
+  chapter: 03-things-fade-people-clash
+  claim: "When each spouse takes the other's nature into account, disputes fall greatly."
+  source: "S1@05.028"
+  quote: "فلما يراعي كلا الطرفين الفطره التي فطر"
+  status: opinion
+  note: ""
+
+# ---------------------------------------------------------------- 04-four-ways
+- id: F047
+  chapter: 04-four-ways
+  claim: "He divides how people receive crises into four levels."
+  source: "S1@06.002"
+  quote: "اقسمهم الى اربع مراتب"
+  status: from-source
+  note: ""
+- id: F048
+  chapter: 04-four-ways
+  claim: "Level one is discontent and panic: anger at the decree."
+  source: "S1@06.003"
+  quote: "مرتبه السخط والجزع"
+  status: from-source
+  note: ""
+- id: F049
+  chapter: 04-four-ways
+  claim: "Level two is patience: burning inside but saying 'God help us', without protest."
+  source: "S1@06.005"
+  quote: "هو محترق من داخل لكنه يقول الله يعينا"
+  status: from-source
+  note: ""
+- id: F050
+  chapter: 04-four-ways
+  claim: "Level three is contentment."
+  source: "S1@06.007"
+  quote: "اللي هي مرتبه الرضا"
+  status: from-source
+  note: ""
+- id: F051
+  chapter: 04-four-ways
+  claim: "Level four, the best, is gratitude."
+  source: "S1@06.009"
+  quote: "المرتبه اللي احسن شيء الشكر"
+  status: from-source
+  note: ""
+- id: F052
+  chapter: 04-four-ways
+  claim: "Some believe misfortune only falls on the disobedient; he says that is not so."
+  source: "S1@06.014"
+  quote: "يعتقد ان المصيبه ما تحل الا على العصاه"
+  status: opinion
+  note: ""
+- id: F053
+  chapter: 04-four-ways
+  claim: "At Uhud the Prophet's tooth was broken and his uncle Hamza killed."
+  source: "S1@06.019"
+  quote: "فكسرت رباعيته ومات عمه حمزه"
+  status: from-source
+  note: ""
+- id: F054
+  chapter: 04-four-ways
+  claim: "While praying at the Kaaba the Prophet was strangled by Uqba ibn Abi Mu'ayt."
+  source: "S1@06.021"
+  quote: "فخنقه عقبه بن ابي معط"
+  status: from-source
+  note: ""
+- id: F055
+  chapter: 04-four-ways
+  claim: "He says Job suffered 18 years between life and death."
+  source: "S1@06.022"
+  quote: "ايوب عليه السلام 18 سنه"
+  status: check
+  note: "Figure from tradition; sources differ."
+- id: F056
+  chapter: 04-four-ways
+  claim: "He says Jacob lost his son Joseph for 80 years."
+  source: "S1@06.023"
+  quote: "يعقوب عليه السلام يفقد ابنه يوسف 80 سنه"
+  status: check
+  note: "Figure from tradition; sources differ."
+- id: F057
+  chapter: 04-four-ways
+  claim: "You must expect hardships and program yourself for them."
+  source: "S1@06.025"
+  quote: "تتوقعها وتبرمج نفسك عليها"
+  status: opinion
+  note: ""
+
+# ---------------------------------------------------------------- 05-hidden-good
+- id: F058
+  chapter: 05-hidden-good
+  claim: "He likes the description of al-khira (the good in what God chooses) as hidden."
+  source: "S1@07.002"
+  quote: "يصفها بانها خفيه"
+  status: from-source
+  note: ""
+- id: F059
+  chapter: 05-hidden-good
+  claim: "The good does not walk alongside the crisis; it comes after it, unseen."
+  source: "S1@07.004"
+  quote: "الخيره تجي ورا"
+  status: opinion
+  note: ""
+- id: F060
+  chapter: 05-hidden-good
+  claim: "He cites 'man was created hasty', explained as hasty to be angry before seeing the good."
+  source: "S1@07.006"
+  quote: "وخلق الانسان عجولا"
+  status: check
+  note: "Wording close to Qur'an 17:11 ('wa kana al-insanu 'ajula') and 21:37; check which he means."
+- id: F061
+  chapter: 05-hidden-good
+  claim: "You do not have to know the wisdom behind a hardship."
+  source: "S1@07.007"
+  quote: "لا يشترط يا احمد ان تعرف الحكمه"
+  status: opinion
+  note: ""
+- id: F062
+  chapter: 05-hidden-good
+  claim: "A Bedouin asked the Prophet for brief advice; he said 'do not accuse God in His decree'."
+  source: "S1@07.015"
+  quote: "لا تتهم الله في قضائه"
+  status: check
+  note: "Check the hadith's source and grading."
+- id: F063
+  chapter: 05-hidden-good
+  claim: "A medical student hit by a car with his friends suffered a deep wound that led to removing a kidney."
+  source: "S1@07.021"
+  quote: "تسبب في استئصال الكليه"
+  status: from-source
+  note: ""
+- id: F064
+  chapter: 05-hidden-good
+  claim: "The surgeon told him: 'Good news, we removed the kidney.'"
+  source: "S1@07.023"
+  quote: "قال ابشرك استاصلنا الكليه"
+  status: from-source
+  note: ""
+- id: F065
+  chapter: 05-hidden-good
+  claim: "The kidney turned out to have the beginnings of a tumour."
+  source: "S1@07.025"
+  quote: "هذه الكليه فيها بدايات ورم"
+  status: from-source
+  note: ""
+
+# ---------------------------------------------------------------- 06-complain-to-whom
+- id: F066
+  chapter: 06-complain-to-whom
+  claim: "There are two kinds of complaint: to people and to God."
+  source: "S1@08.001"
+  quote: "الشكوى نوعين في شكوى الى الناس"
+  status: from-source
+  note: ""
+- id: F067
+  chapter: 06-complain-to-whom
+  claim: "Complaining to people renews the pain inside you."
+  source: "S1@08.007"
+  quote: "الشكوى الى الناس تجدد الالم في داخلك"
+  status: opinion
+  note: ""
+- id: F068
+  chapter: 06-complain-to-whom
+  claim: "Each time the wound tries to heal, complaining reopens it."
+  source: "S1@08.008"
+  quote: "ورحت وفتحت الجرح مره ثانيه"
+  status: opinion
+  note: ""
+- id: F069
+  chapter: 06-complain-to-whom
+  claim: "Prophets complained only to God: 'I only complain of my grief and sorrow to God.'"
+  source: "S1@08.011"
+  quote: "انما اشكو بثي وحزني الى الله"
+  status: from-source
+  note: "Qur'an 12:86 (Jacob)."
+- id: F070
+  chapter: 06-complain-to-whom
+  claim: "He quotes the Prophet's prayer: 'O God, to You I complain of my weakness and lack of means.'"
+  source: "S1@08.011"
+  quote: "اللهم اني اشكو اليك ضعف قوتي وقله حيلتي"
+  status: from-source
+  note: "Du'a of Ta'if; check grading."
+- id: F071
+  chapter: 06-complain-to-whom
+  claim: "A wise man said: complain to a friend and you grieve him..."
+  source: "S1@08.015"
+  quote: "اما الى صديق فتغمه"
+  status: from-source
+  note: ""
+- id: F072
+  chapter: 06-complain-to-whom
+  claim: "...or to an enemy and he gloats over you."
+  source: "S1@08.016"
+  quote: "او عدو فيشمت بك"
+  status: from-source
+  note: ""
+- id: F073
+  chapter: 06-complain-to-whom
+  claim: "The wise man said he had not seen with one eye for 15 years and had told no one."
+  source: "S1@08.017"
+  quote: "لا ابصر بها منذ 15 سنه"
+  status: from-source
+  note: ""
+- id: F074
+  chapter: 06-complain-to-whom
+  claim: "A third kind is venting, and the question is to whom."
+  source: "S1@08.020"
+  quote: "الفضفضه لمين"
+  status: from-source
+  note: ""
+- id: F075
+  chapter: 06-complain-to-whom
+  claim: "The person you vent to must have sound judgment and keep secrets."
+  source: "S1@08.024"
+  quote: "ان يكون من ذوي الراي وان يكون حافظا للسر"
+  status: opinion
+  note: ""
+- id: F076
+  chapter: 06-complain-to-whom
+  claim: "Out of 50 or 100 friends, perhaps one or two qualify."
+  source: "S1@08.022"
+  quote: "في واحد يمكن اثنين بس واحد وانت اصدقائك يمكن عددهم 50"
+  status: opinion
+  note: ""
+
+# ---------------------------------------------------------------- 07-road-to-contentment
+- id: F077
+  chapter: 07-road-to-contentment
+  claim: "He says 'the good life' in the verse has been explained as contentment."
+  source: "S1@09.002"
+  quote: "الحياه الطيبه هي الرضا"
+  status: opinion
+  note: "Qur'an 16:97; one of several interpretations."
+- id: F078
+  chapter: 07-road-to-contentment
+  claim: "Contentment makes you healthier and calmer."
+  source: "S1@09.004"
+  quote: "الرضا حتى يجعلك اكثر صحه وسلامه"
+  status: opinion
+  note: ""
+- id: F079
+  chapter: 07-road-to-contentment
+  claim: "Umar ibn al-Khattab told an afflicted man: if you are patient, God's decree passes and you are rewarded..."
+  source: "S1@09.007"
+  quote: "ان صبرت مضى امر الله وكنت ماجورا"
+  status: from-source
+  note: ""
+- id: F080
+  chapter: 07-road-to-contentment
+  claim: "...and if you are discontent, God's decree passes and you bear the burden."
+  source: "S1@09.008"
+  quote: "وان سخطت مضى امر الله وكنت مازورا"
+  status: from-source
+  note: ""
+- id: F081
+  chapter: 07-road-to-contentment
+  claim: "Complaint and discontent greatly lengthen a hardship."
+  source: "S1@09.011"
+  quote: "يزيد مده البلاء بشكل كبير"
+  status: opinion
+  note: ""
+- id: F082
+  chapter: 07-road-to-contentment
+  claim: "After graduating, he was posted to Tabuk, about 1,300 km from Riyadh."
+  source: "S1@09.013"
+  quote: "ظهر تعييني في منطقه تبوك"
+  status: from-source
+  note: ""
+- id: F083
+  chapter: 07-road-to-contentment
+  claim: "He was offered Bisha or Najran instead."
+  source: "S1@09.019"
+  quote: "فيه بيشه وفيه نجران"
+  status: from-source
+  note: ""
+- id: F084
+  chapter: 07-road-to-contentment
+  claim: "He wrote and signed a statement refusing the job."
+  source: "S1@09.022"
+  quote: "انا لا اريد هذه الوظيفه"
+  status: from-source
+  note: ""
+- id: F085
+  chapter: 07-road-to-contentment
+  claim: "In the car, instead of driving off, he reversed back to the same spot without knowing why."
+  source: "S1@09.025"
+  quote: "رجعته على الدي ورجعت مره ثانيه لنفس الموقف"
+  status: from-source
+  note: ""
+- id: F086
+  chapter: 07-road-to-contentment
+  claim: "He took the job unwillingly and not content."
+  source: "S1@09.030"
+  quote: "واروح للوظيفه وانا كاره غير راضي"
+  status: from-source
+  note: ""
+- id: F087
+  chapter: 07-road-to-contentment
+  claim: "The good, 'all the good', was in that posting."
+  source: "S1@09.031"
+  quote: "وكان الخير بل كل الخير في ذلك التعيين"
+  status: from-source
+  note: ""
+- id: F088
+  chapter: 07-road-to-contentment
+  claim: "His father told him to look for a plot of land in Tabuk and build on it."
+  source: "S1@09.038"
+  quote: "قال دور لك ارض"
+  status: from-source
+  note: ""
+- id: F089
+  chapter: 07-road-to-contentment
+  claim: "He found a corner plot on two streets for 550,000 riyals."
+  source: "S1@09.041"
+  quote: "قيمتها 550 الف"
+  status: from-source
+  note: ""
+- id: F090
+  chapter: 07-road-to-contentment
+  claim: "He sold it for 650,000, a gain of 150,000, and his father asked only for his capital back."
+  source: "S1@09.046"
+  quote: "وبعتها ب 650000 انا كسبان"
+  status: from-source
+  note: ""
+- id: F091
+  chapter: 07-road-to-contentment
+  claim: "He says grief is a killer, literally, not figuratively."
+  source: "S1@09.051"
+  quote: "اقول قاتل بالمعنى الحقيقي"
+  status: check
+  note: "Strong claim; context from research on bereavement and mortality."
+- id: F092
+  chapter: 07-road-to-contentment
+  claim: "He cites 'perhaps you would destroy yourself [with grief] that they do not believe'."
+  source: "S1@09.052"
+  quote: "لعلك باخع نفسك الا يكونوا مؤمنين"
+  status: from-source
+  note: "Qur'an 26:3."
+- id: F093
+  chapter: 07-road-to-contentment
+  claim: "He says the immune system works well only on condition that you are at ease."
+  source: "S1@09.064"
+  quote: "انك تكون مرتاح انك تكون مروق"
+  status: check
+  note: "Simplification; compare with psychoneuroimmunology research."
+- id: F094
+  chapter: 07-road-to-contentment
+  claim: "He says the immune system breaks down in grief and discontent."
+  source: "S1@09.067"
+  quote: "يتعطل عن العمل ينهار عن العمل لما تكون انت في حاله حزن"
+  status: check
+  note: "Overstated; chronic stress suppresses some immune functions."
+- id: F095
+  chapter: 07-road-to-contentment
+  claim: "Contentment is not numbness: when his son Ibrahim died the Prophet said 'the eye weeps and the heart grieves'."
+  source: "S1@09.078"
+  quote: "ان العين لتدمع وان القلب ليحزن"
+  status: from-source
+  note: "Hadith (Bukhari)."
+
+# ---------------------------------------------------------------- 08-what-blocks-contentment
+- id: F096
+  chapter: 08-what-blocks-contentment
+  claim: "The first and worst cause of discontent is comparison, 'the door to misery'."
+  source: "S1@10.002"
+  quote: "المقارنه يا احمد هي باب التعاسه"
+  status: opinion
+  note: ""
+- id: F097
+  chapter: 08-what-blocks-contentment
+  claim: "We compare with the wrong person, in the wrong way, at the wrong time."
+  source: "S1@10.004"
+  quote: "وبالطريقه الخطا وفي التوقيت الخطا"
+  status: opinion
+  note: ""
+- id: F098
+  chapter: 08-what-blocks-contentment
+  claim: "His example: a colleague owns a villa while you struggle to pay rent on a flat."
+  source: "S1@10.009"
+  quote: "ساكن في فله ملك وانت لاقي قصه اجار شقه"
+  status: from-source
+  note: ""
+- id: F099
+  chapter: 08-what-blocks-contentment
+  claim: "A comparison must be fair: across every part of life, not only the part you lack."
+  source: "S1@10.013"
+  quote: "لازم تكون المقارنه عادله"
+  status: opinion
+  note: ""
+- id: F100
+  chapter: 08-what-blocks-contentment
+  claim: "Second cause: believing blessings are rights, not gifts."
+  source: "S1@10.016"
+  quote: "النعم هي حقوق حقوق وليست هبات"
+  status: opinion
+  note: ""
+- id: F101
+  chapter: 08-what-blocks-contentment
+  claim: "Another cause: expecting perfection in life."
+  source: "S1@10.018"
+  quote: "توقع المثاليه في الحياه"
+  status: opinion
+  note: ""
+- id: F102
+  chapter: 08-what-blocks-contentment
+  claim: "A friend needed 10,000 riyals and asked the brother he was sure of; the brother declined."
+  source: "S1@10.022"
+  quote: "احتجت 10000 ريال وعندي ثلاثه اخوه اشقاء"
+  status: from-source
+  note: ""
+- id: F103
+  chapter: 08-what-blocks-contentment
+  claim: "Another cause: sitting with the discontented and constant complainers."
+  source: "S1@10.031"
+  quote: "مجالسه الساخطين والشكائين"
+  status: opinion
+  note: ""
+- id: F104
+  chapter: 08-what-blocks-contentment
+  claim: "A friend he visited had lost all three sons, one after another, to the same illness."
+  source: "S1@10.056"
+  quote: "كل عيال الثلاثه ماتوا بنفس الطريقه"
+  status: from-source
+  note: ""
+- id: F105
+  chapter: 08-what-blocks-contentment
+  claim: "Praise God that He took one thing and left you many."
+  source: "S1@10.058"
+  quote: "فاحمد الله سبحانه وتعالى على ان اخذ منك شيئا وترك عندك اشياء"
+  status: opinion
+  note: ""
+- id: F106
+  chapter: 08-what-blocks-contentment
+  claim: "He calls social media 'social disconnection media'."
+  source: "S1@10.060"
+  quote: "احب اسميها وسائل التقاطع"
+  status: opinion
+  note: ""
+- id: F107
+  chapter: 08-what-blocks-contentment
+  claim: "Another cause: believing a situation is permanent."
+  source: "S1@10.068"
+  quote: "اعتقاد دوام الحال"
+  status: opinion
+  note: ""
+- id: F108
+  chapter: 08-what-blocks-contentment
+  claim: "There is always light at the end of the tunnel; if you cannot see it, there may be a bend first."
+  source: "S1@10.071"
+  quote: "دائما هناك ضوء في اخر النفق"
+  status: opinion
+  note: ""
+- id: F109
+  chapter: 08-what-blocks-contentment
+  claim: "A friend's wife was told she needed surgery and 15 days in hospital; after he gave money to a struggling employee, the hospital called: a new diagnosis meant she needed neither."
+  source: "S1@10.081"
+  quote: "سوينا لها تشخيص جديد صارت لا تحتاج"
+  status: from-source
+  note: ""
+- id: F110
+  chapter: 08-what-blocks-contentment
+  claim: "Sometimes your fiercest companion is yourself."
+  source: "S1@11.003"
+  quote: "احيانا يكون اشرس صديق لك هو نفسك"
+  status: opinion
+  note: ""
+- id: F111
+  chapter: 08-what-blocks-contentment
+  claim: "What you say to yourself does no less harm than what others say to you."
+  source: "S1@11.004"
+  quote: "كلامك لنفسك لا يقل ضررا ولا خطوره عن كلام الاخرين لك"
+  status: opinion
+  note: ""
+- id: F112
+  chapter: 08-what-blocks-contentment
+  claim: "Life responds to what you tell yourself."
+  source: "S1@11.010"
+  quote: "الحياه تستجيب لما تتحدث به مع نفسك"
+  status: opinion
+  note: ""
+
+# ---------------------------------------------------------------- 09-gratitude
+- id: F113
+  chapter: 09-gratitude
+  claim: "For gratitude, it is enough that you woke up today."
+  source: "S1@12.003"
+  quote: "يكفيك في الامتنان انك استيقظت اليوم من منامك"
+  status: opinion
+  note: ""
+- id: F114
+  chapter: 09-gratitude
+  claim: "A friend's son, just out of military training, did not wake up one morning in the barracks."
+  source: "S1@12.009"
+  quote: "ما فيه الا العافيه وما صحى"
+  status: from-source
+  note: ""
+- id: F115
+  chapter: 09-gratitude
+  claim: "He challenges the host to list 50 things he enjoys in life today."
+  source: "S1@12.016"
+  quote: "سجل لي في هذه الورقه 50 شيء تتمتع به في حياتك"
+  status: from-source
+  note: ""
+- id: F116
+  chapter: 09-gratitude
+  claim: "Each night before sleep, recall three blessings God gave you that day."
+  source: "S1@12.027"
+  quote: "ثلاث نعم انعم الله عليك بها في ذلك اليوم"
+  status: from-source
+  note: ""
+- id: F117
+  chapter: 09-gratitude
+  claim: "It trains the mind to focus on the good things in life."
+  source: "S1@12.031"
+  quote: "تجعل مخك ايجابي يركز على الاشياء الحلوه"
+  status: opinion
+  note: ""
+- id: F118
+  chapter: 09-gratitude
+  claim: "He quotes 'if you are grateful, I will surely increase you'."
+  source: "S1@12.035"
+  quote: "لان شكرتم لازيدنكم"
+  status: from-source
+  note: "Qur'an 14:7."
+- id: F119
+  chapter: 09-gratitude
+  claim: "He quotes the hadith: whoever wakes safe, healthy in body, with food for the day, it is as if the world were his."
+  source: "S1@12.039"
+  quote: "من اصبح منكم امنا في سربه معافا في جسده"
+  status: from-source
+  note: "Hadith (Tirmidhi)."
+
+# ---------------------------------------------------------------- 10-standing-by-someone
+- id: F120
+  chapter: 10-standing-by-someone
+  claim: "Part of your duty to friends is to restore their psychological balance in a crisis."
+  source: "S1@13.009"
+  quote: "تعيد لهم التوازن النفسي"
+  status: opinion
+  note: ""
+- id: F121
+  chapter: 10-standing-by-someone
+  claim: "First, keep eye contact: it shows you care."
+  source: "S1@13.014"
+  quote: "الاستمرار في في التواصل البصري معه"
+  status: from-source
+  note: ""
+- id: F122
+  chapter: 10-standing-by-someone
+  claim: "Second, do not criticise him."
+  source: "S1@13.015"
+  quote: "الثاني عدم انتقاده"
+  status: from-source
+  note: ""
+- id: F123
+  chapter: 10-standing-by-someone
+  claim: "A cousin told a man who regretted a decision: you made the decision you saw as right at that stage."
+  source: "S1@13.022"
+  quote: "اتخذت القرار اللي كنت تشوفه الصح في ذيك"
+  status: from-source
+  note: ""
+- id: F124
+  chapter: 10-standing-by-someone
+  claim: "Like someone who buys a share on strong news and it falls a month later: judge him by yesterday's information."
+  source: "S1@13.026"
+  quote: "مثل اللي يجي يشتري سهم"
+  status: from-source
+  note: ""
+- id: F125
+  chapter: 10-standing-by-someone
+  claim: "Pass on advice in a way that preserves the other's dignity."
+  source: "S1@13.031"
+  quote: "تمرر التوجيه للاخر باسلوب يحفظ"
+  status: from-source
+  note: ""
+- id: F126
+  chapter: 10-standing-by-someone
+  claim: "A school friend 'comforted' a classmate who had botched an exam: 'the resit was made for you and your kind'."
+  source: "S1@13.039"
+  quote: "الدور الثاني ترى ما حطوه الا لك واشكالك"
+  status: from-source
+  note: ""
+- id: F127
+  chapter: 10-standing-by-someone
+  claim: "Finally, show him that what is coming is good."
+  source: "S1@13.043"
+  quote: "ان القادم جميل دائما"
+  status: opinion
+  note: ""
+- id: F128
+  chapter: 10-standing-by-someone
+  claim: "Good health is described as 'the hidden crown'."
+  source: "S1@14.002"
+  quote: "يصف العافيه بانها الملك الخفي"
+  status: from-source
+  note: ""
+- id: F129
+  chapter: 10-standing-by-someone
+  claim: "After he posted a clip about harsh words from medical staff, he received a flood of messages with similar stories."
+  source: "S1@14.006"
+  quote: "فيضان الرسائل اللي جتني عن مواقف مرت بهم في المستشفيات"
+  status: from-source
+  note: ""
+- id: F130
+  chapter: 10-standing-by-someone
+  claim: "A daughter asked a doctor how her father would be when he woke from his stroke; the doctor replied 'who told you he will wake up?'"
+  source: "S1@14.012"
+  quote: "ومن قال لك انه بيصحى"
+  status: from-source
+  note: ""
+- id: F131
+  chapter: 10-standing-by-someone
+  claim: "A doctor told a mother whose newborn was ill 'you have others, may they be blessed'; the child is alive and three years old."
+  source: "S1@14.015"
+  quote: "اوه فيهم البركه"
+  status: from-source
+  note: ""
+- id: F132
+  chapter: 10-standing-by-someone
+  claim: "A doctor told a student revising for finals in hospital 'maybe you will graduate from life'."
+  source: "S1@14.019"
+  quote: "تتخرجين من الحياه"
+  status: from-source
+  note: ""
+- id: F133
+  chapter: 10-standing-by-someone
+  claim: "He says kind words actually help healing."
+  source: "S1@14.020"
+  quote: "الكلام اللطيف يساعد ترى على الشفاء"
+  status: check
+  note: "Compare with research on clinician communication and patient outcomes."
+- id: F134
+  chapter: 10-standing-by-someone
+  claim: "A visitor told a sick man's son: if your father dies, bury him in the village cemetery."
+  source: "S1@14.025"
+  quote: "مات ابوك ادفنوه في مقبره الديره"
+  status: from-source
+  note: ""
+- id: F135
+  chapter: 10-standing-by-someone
+  claim: "Telling a patient 'there's nothing wrong with you' hurts; say 'God heal you' instead."
+  source: "S1@14.028"
+  quote: "العافيه ترى هذه كلمه مؤلمه للمريض"
+  status: opinion
+  note: ""
+
+# ---------------------------------------------------------------- 11-are-we-fragile
+- id: F136
+  chapter: 11-are-we-fragile
+  claim: "The term 'fragility' has become very common."
+  source: "S1@15.001"
+  quote: "مصطلح الهشاشه صار شائع"
+  status: from-source
+  note: ""
+- id: F137
+  chapter: 11-are-we-fragile
+  claim: "His example: a manager asks for revisions and the employee decides he is a failure about to be fired."
+  source: "S1@15.006"
+  quote: "يطلع يقول انا انسان فاشل وشكلهم بيفصلوني"
+  status: from-source
+  note: ""
+- id: F138
+  chapter: 11-are-we-fragile
+  claim: "Or a friend does not reply to a message and he concludes 'he hates me'."
+  source: "S1@15.007"
+  quote: "قال لي هو اصلا يكرهني"
+  status: from-source
+  note: ""
+- id: F139
+  chapter: 11-are-we-fragile
+  claim: "Only the strong really live in this life."
+  source: "S1@15.010"
+  quote: "الحياه ترى ما يعيش فيها الا القوي"
+  status: opinion
+  note: ""
+- id: F140
+  chapter: 11-are-we-fragile
+  claim: "Believe that God is with you: 'you are in Our sight'."
+  source: "S1@15.014"
+  quote: "فانك باعيننا"
+  status: from-source
+  note: "Qur'an 52:48."
+- id: F141
+  chapter: 11-are-we-fragile
+  claim: "Certainty of a good reward for patience lightens a crisis."
+  source: "S1@15.015"
+  quote: "اليقين بحسن الجزاء"
+  status: opinion
+  note: ""
+- id: F142
+  chapter: 11-are-we-fragile
+  claim: "'With hardship comes ease': the ease walks with the hardship."
+  source: "S1@15.020"
+  quote: "هذا العسر الذي اصابك اليسر يمشي معه"
+  status: opinion
+  note: "Qur'an 94:5-6."
+- id: F143
+  chapter: 11-are-we-fragile
+  claim: "Discontent, panic and complaint delay the ease."
+  source: "S1@15.022"
+  quote: "اللي يخلي اليسر يتاخر"
+  status: opinion
+  note: ""
+- id: F144
+  chapter: 11-are-we-fragile
+  claim: "He quotes 'We created man in toil'."
+  source: "S1@15.023"
+  quote: "لقد خلقنا الانسان في كبد"
+  status: from-source
+  note: "Qur'an 90:4."
+- id: F145
+  chapter: 11-are-we-fragile
+  claim: "Acceptance does not mean surrender: keep working for change."
+  source: "S1@15.024"
+  quote: "التقبل طبعا ترى لا يعني الاستسلام"
+  status: opinion
+  note: ""
+- id: F146
+  chapter: 11-are-we-fragile
+  claim: "You are not the only one: 'death in company is a mercy'."
+  source: "S1@15.034"
+  quote: "الموت مع الجماعه رحمه"
+  status: from-source
+  note: "Popular proverb."
+- id: F147
+  chapter: 11-are-we-fragile
+  claim: "He quotes a saying he attributes to Carl Jung inviting those who suffer a tragedy to celebrate, because something good is on its way."
+  source: "S1@15.037"
+  quote: "اسمه كارل يانج"
+  status: check
+  note: "Attribution unverified; leave out unless sourced."
+- id: F148
+  chapter: 11-are-we-fragile
+  claim: "A crisis is a gift from God."
+  source: "S1@15.044"
+  quote: "الازمه ترى هي هديه الهيه لك"
+  status: opinion
+  note: ""
+- id: F149
+  chapter: 11-are-we-fragile
+  claim: "Managing a crisis is part heart and part mind."
+  source: "S1@15.048"
+  quote: "اداره القلب واداره العقل"
+  status: from-source
+  note: "The host's summary, which he confirms."
+
+# ---------------------------------------------------------------- 12-practical-steps
+- id: F150
+  chapter: 12-practical-steps
+  claim: "Do not let negative feelings spread in your mind."
+  source: "S1@16.002"
+  quote: "لا تسمح للمشاعر السلبيه بالتمدد في ذهنك"
+  status: opinion
+  note: ""
+- id: F151
+  chapter: 12-practical-steps
+  claim: "Some people bring a chair into the middle of their mind and seat the worry on it, with coffee and tea."
+  source: "S1@16.003"
+  quote: "جايب كرسي وحاطه في وسط مخه"
+  status: from-source
+  note: ""
+- id: F152
+  chapter: 12-practical-steps
+  claim: "Leave panic and complaint."
+  source: "S1@16.006"
+  quote: "اترك الجزعه والشكوى"
+  status: opinion
+  note: ""
+- id: F153
+  chapter: 12-practical-steps
+  claim: "Do not withdraw from people."
+  source: "S1@16.007"
+  quote: "لا تعتزل الناس"
+  status: opinion
+  note: ""
+- id: F154
+  chapter: 12-practical-steps
+  claim: "Focus on the blessings you have, not on what was taken."
+  source: "S1@16.010"
+  quote: "ركز في نعم الله التي عندك وليس على ما اخذ منك"
+  status: opinion
+  note: ""
+- id: F155
+  chapter: 12-practical-steps
+  claim: "An ancient Himyarite king lost the son he was preparing as heir; a visitor told him 'the world gives in order to take'."
+  source: "S1@16.015"
+  quote: "ان الدنيا تعطي لتاخذ"
+  status: from-source
+  note: ""
+- id: F156
+  chapter: 12-practical-steps
+  claim: "'...an event took part of you and left most of you.'"
+  source: "S1@16.017"
+  quote: "فاخذ بعضك وترك اكثرك"
+  status: from-source
+  note: ""
+- id: F157
+  chapter: 12-practical-steps
+  claim: "A security guard told him: if everything else in your life works, thank God for that blessing."
+  source: "S1@16.032"
+  quote: "فاحمد ربك على النعمه"
+  status: from-source
+  note: ""
+- id: F158
+  chapter: 12-practical-steps
+  claim: "A friend from Tabuk lost his parents and siblings in one car accident within 24 hours."
+  source: "S1@16.045"
+  quote: "في 24 ساعه ازمه عظيمه"
+  status: from-source
+  note: ""
+- id: F159
+  chapter: 12-practical-steps
+  claim: "Life has several circles: work, friends, health, hobbies, free time."
+  source: "S1@16.047"
+  quote: "حياه الانسان ترى عده دوائر"
+  status: opinion
+  note: ""
+- id: F160
+  chapter: 12-practical-steps
+  claim: "Do not carry a work crisis home and take it out on your family."
+  source: "S1@16.050"
+  quote: "تنقل ازمه العمل معك الى البيت"
+  status: opinion
+  note: ""
+- id: F161
+  chapter: 12-practical-steps
+  claim: "Look after your appearance, and buying something you like can lift your mood."
+  source: "S1@16.054"
+  quote: "يجب ان تهتم بالمظهر"
+  status: opinion
+  note: ""
+- id: F162
+  chapter: 12-practical-steps
+  claim: "Al-Ahnaf ibn Qays told a man holding a dirham: it will not benefit you until you part with it."
+  source: "S1@16.058"
+  quote: "انه لن ينفعك حتى تفارقه"
+  status: from-source
+  note: ""
+- id: F163
+  chapter: 12-practical-steps
+  claim: "Do not bottle up grief: vent, to the right person."
+  source: "S1@16.063"
+  quote: "عدم كتمان الحزن"
+  status: opinion
+  note: ""
+- id: F164
+  chapter: 12-practical-steps
+  claim: "A friend's only advice after a 14-minute call: 'sort yourself out'."
+  source: "S1@16.068"
+  quote: "قال انك تدبر"
+  status: from-source
+  note: ""
+- id: F165
+  chapter: 12-practical-steps
+  claim: "Accept failure: it has three good meanings."
+  source: "S1@16.070"
+  quote: "الفشل في ثلاث معاني جميله"
+  status: opinion
+  note: ""
+- id: F166
+  chapter: 12-practical-steps
+  claim: "Failing in one situation does not mean failing in life."
+  source: "S1@16.071"
+  quote: "الفشل في موقف لا يعني الفشل في الحياه"
+  status: opinion
+  note: ""
+- id: F167
+  chapter: 12-practical-steps
+  claim: "Failure shows you are brave and willing to try."
+  source: "S1@16.073"
+  quote: "الفشل يؤكد بانك انسان شجاع ومغامر"
+  status: opinion
+  note: ""
+- id: F168
+  chapter: 12-practical-steps
+  claim: "Enough sleep and exercise matter for getting through a crisis."
+  source: "S1@16.076"
+  quote: "النوم الكافي وممارسه الرياضه"
+  status: opinion
+  note: ""
+- id: F169
+  chapter: 12-practical-steps
+  claim: "Excessive sensitivity is sometimes the cause of a crisis."
+  source: "S1@16.078"
+  quote: "الحساسيه الزايده"
+  status: opinion
+  note: ""
+- id: F170
+  chapter: 12-practical-steps
+  claim: "End a dispute by saying: if I was wrong I am sorry, and if you were wrong I forgive you."
+  source: "S1@16.094"
+  quote: "فانا اسف واذا انت اللي غلطان تراني مسامحك"
+  status: from-source
+  note: ""
+- id: F171
+  chapter: 12-practical-steps
+  claim: "Put an optimistic phrase on your phone's wallpaper."
+  source: "S1@16.098"
+  quote: "تحط فيها عباره تفاؤليه حلوه"
+  status: from-source
+  note: ""
+- id: F172
+  chapter: 12-practical-steps
+  claim: "Repeating 'why me?' is one of the things that most prolongs a crisis."
+  source: "S1@16.108"
+  quote: "من اشد الاشياء التي تطيل عمر الازمه"
+  status: opinion
+  note: ""
+- id: F173
+  chapter: 12-practical-steps
+  claim: "His exercise: imagine your life without health, family, friends and work, then get them all back."
+  source: "S1@16.117"
+  quote: "تخيل حياتك بدون صحه"
+  status: from-source
+  note: ""
+- id: F174
+  chapter: 12-practical-steps
+  claim: "Do something kind for others."
+  source: "S1@16.122"
+  quote: "افعل شيئا لطيفا للاخرين"
+  status: opinion
+  note: ""
+- id: F175
+  chapter: 12-practical-steps
+  claim: "A friend keeps 5-riyal notes in the car to hand out."
+  source: "S1@16.146"
+  quote: "وسحب منه 5 ريال واعطاه اياه"
+  status: from-source
+  note: ""
+- id: F176
+  chapter: 12-practical-steps
+  claim: "He quotes: among the best deeds is joy you bring into a Muslim's heart."
+  source: "S1@16.150"
+  quote: "الاعمال عند الله سرور تدخله على قلب مسلم"
+  status: from-source
+  note: "Hadith (Tabarani); check grading."
+- id: F177
+  chapter: 12-practical-steps
+  claim: "Treat yourself as a friend: say to yourself what you would say to him."
+  source: "S1@16.156"
+  quote: "عامل نفسك كصديق"
+  status: opinion
+  note: ""
+- id: F178
+  chapter: 12-practical-steps
+  claim: "Believe the crisis is temporary."
+  source: "S1@16.164"
+  quote: "لازم ان تؤمن بانها ظرفها مؤقت"
+  status: opinion
+  note: ""
+- id: F179
+  chapter: 12-practical-steps
+  claim: "Among the biggest professional crises is unemployment."
+  source: "S1@17.003"
+  quote: "هو العطاله"
+  status: from-source
+  note: "The host's question."
+- id: F180
+  chapter: 12-practical-steps
+  claim: "Life is not tailored to anyone's mood."
+  source: "S1@17.005"
+  quote: "مفصله على مزاج الانسان"
+  status: opinion
+  note: ""
+- id: F181
+  chapter: 12-practical-steps
+  claim: "Sometimes you get option two, and the good is in option two."
+  source: "S1@17.008"
+  quote: "ان الخيره له في رقم اثنين"
+  status: opinion
+  note: ""
+- id: F182
+  chapter: 12-practical-steps
+  claim: "He is not telling people to be numb or passive."
+  source: "S1@17.012"
+  quote: "ما ندعو الناس الى انهم يتبنجون"
+  status: opinion
+  note: ""
+- id: F183
+  chapter: 12-practical-steps
+  claim: "Treat your life as complete from now, and keep working to complete it."
+  source: "S1@17.015"
+  quote: "تعامل مع حياتك انها من الان كامله واستمر في العمل على اكمالها"
+  status: opinion
+  note: ""
