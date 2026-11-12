@@ -181,8 +181,8 @@
   claim: "He says patience is mentioned about 90 times in the Qur'an."
   source: "S1@03.015"
   quote: "ذكر الصبر في القران 90 مره"
-  status: check
-  note: "Commonly cited figure; counts vary by method. Check against a concordance."
+  status: verified
+  note: "The figure is Imam Ahmad's ('in about ninety places'), quoted by Ibn al-Qayyim in his writing on patience."
 - id: F024
   chapter: 02-reward-or-punishment
   claim: "He notes that in 'We test you with evil and good', evil comes first."

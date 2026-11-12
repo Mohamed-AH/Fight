@@ -18,3 +18,28 @@ starts: "59:30"
 - **What it does.** It trains your mind to focus on the good. During the day you start noticing things to put on tonight's list. <!-- F117 -->
 - **More of what you think about.** "If you are grateful, I will surely increase you." <!-- F118 -->
 - **The whole world.** He quotes the hadith: whoever wakes safe in his home, healthy in body, with food for the day, it is as if the whole world were his. <!-- F119 -->
+
+## The idea, explained
+
+<!-- explained -->
+
+### The three blessings, tested
+
+His nightly exercise is very close to one of the best-known experiments in positive psychology. People asked to write down **three good things** each evening for a week, and why they happened, were happier and less depressed for up to six months afterwards ([Seligman et al., 2005](https://doi.org/10.1037/0003-066X.60.5.410)). Another study had people keep a weekly gratitude list; they felt better about their lives and were more optimistic than those who listed hassles ([Emmons & McCullough, 2003](https://doi.org/10.1037/0022-3514.84.2.377)).
+
+### Why it works
+
+He gives the reason himself: the exercise trains attention. Knowing you will name three good things tonight, you start noticing candidates during the day. Over time the mind's default search shifts from what is missing to what is there.
+
+### How to do it
+
+1. In bed, before sleep, name three good things from today. Small is fine.
+2. Say, or think, why each happened.
+3. Thank God for them.
+4. Keep going for at least a week before judging.
+
+## Key terms
+
+<!-- explained -->
+
+Gratitude (imtinan, shukr) · Blessings (ni'am) · Three good things.

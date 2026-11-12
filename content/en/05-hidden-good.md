@@ -17,3 +17,25 @@ starts: "29:04"
 - **You don't need to know why.** It is not a condition that you understand the wisdom behind a hardship. <!-- F061 -->
 - **"Do not accuse God in His decree."** A Bedouin asked the Prophet for short advice and was told this. Do not say "I pray, and You test me, while that man never enters a mosque". <!-- F062 -->
 - **The kidney.** A medical student standing by the road with friends was hit by a car. They escaped with light injuries; he had a deep wound and lost a kidney. <!-- F063 --> Out of surgery, the doctor said: "Good news, we removed the kidney." <!-- F064 --> The kidney had the beginnings of a tumour. <!-- F065 -->
+
+## The idea, explained
+
+<!-- explained -->
+
+### Why the good comes later
+
+At the moment of a crisis we can see only the loss; the consequences that might turn out well have not happened yet. So "where is the good in this?" is often asked too early. His phrase, that the good "comes hiding behind the event", is a reminder to wait before judging.
+
+### What research calls benefit finding
+
+Studies of people facing serious illness and other hardships find that many later report benefits: stronger relationships, a new appreciation of life, changed priorities. Across studies, finding such benefits is linked with less depression and more well-being over time ([Helgeson, Reynolds & Tomich, 2006](https://doi.org/10.1037/0022-006X.74.5.797)). The kidney story is an unusually clear case, where the good was physical and found on the operating table; most hidden goods are slower and quieter.
+
+### You don't have to know why
+
+He frees the sufferer from one more task: you do not have to work out the wisdom behind what happened. Trust can do its work without an explanation.
+
+## Key terms
+
+<!-- explained -->
+
+The hidden good (al-khira) · Haste ('ajal) · Benefit finding.

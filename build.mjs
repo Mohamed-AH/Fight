@@ -48,8 +48,12 @@ function renderMarkdown(md, lang) {
   }
   // other external links open in a new tab
   html = html.replace(/<a href="(https?:\/\/[^"]+)">/g, '<a href="$1" target="_blank" rel="noopener">');
+  // in right-to-left pages, a link whose text is Latin (a citation) is isolated as left-to-right,
+  // so its brackets and commas stay in order inside the Arabic sentence
+  if (UI[lang].dir === 'rtl') html = html.replace(/<a (href="[^"]*"[^>]*)>(?=[A-Za-z])/g, '<a dir="ltr" $1>');
   // tables scroll sideways on phones
-  html = html.replace(/<table>/g, `<section class="table-wrap" tabindex="0" aria-label="${UI[lang].table}"><table>`).replace(/<\/table>/g, '</table></section>');
+  let tableN = 0; // each scrollable table gets a unique accessible name: "Table 1", "Table 2"
+  html = html.replace(/<table>/g, () => `<section class="table-wrap" tabindex="0" aria-label="${UI[lang].table} ${++tableN}"><table>`).replace(/<\/table>/g, '</table></section>');
   // header cells say which way they apply
   html = html.replace(/<th>/g, '<th scope="col">').replace(/<th align=/g, '<th scope="col" align=');
   return html;

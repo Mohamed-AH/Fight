@@ -20,3 +20,23 @@ starts: "17:28"
 - **And in marriage.** Conflict with one's wife is natural: two people sharing food, sleep, car and travel will run out of pleasant topics and reach the provoking ones. <!-- F043 -->
 - **Two natures.** In his view God placed jealousy in a woman's nature and an inclination towards women in a man's, which he must restrain. <!-- F044 F045 -->
 - **His advice.** When each spouse makes allowance for the other's nature, disputes between them fall greatly. <!-- F046 -->
+
+## The idea, explained
+
+<!-- explained -->
+
+### Why the waterfall stops being amazing
+
+Psychologists call the first law **hedonic adaptation**: we get used to good things, and the pleasure they give fades back towards our usual level. In a classic study, lottery winners were not much happier than others a while after their win, and they enjoyed everyday pleasures less ([Brickman, Coates & Janoff-Bulman, 1978](https://doi.org/10.1037/0022-3514.36.8.917)). The waterfall on day four is the same waterfall; you are the one who changed.
+
+Adaptation works on bad things too, which is the hopeful half of the law: people usually adjust to losses better than they predict.
+
+### Conflict as part of the furniture
+
+The second law is not a counsel of despair. Marriage researchers find that most recurring disagreements between couples are "perpetual": rooted in differences of temperament that will not go away, so the aim is to manage them with understanding rather than to win ([The Gottman Institute](https://www.gottman.com/blog/managing-conflict-solvable-vs-perpetual-problems/)). His advice, to make allowance for the other person's nature, points the same way.
+
+## Key terms
+
+<!-- explained -->
+
+Decrease (naqs) · Conflict (sira') · Hedonic adaptation · Perpetual problems.

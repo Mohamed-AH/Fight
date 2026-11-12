@@ -21,3 +21,35 @@ starts: "47:10"
 - **Believing it will last.** A hard time feels permanent, but circumstances change. There is always light at the end of the tunnel; if you can't see it, there may be a bend before it. <!-- F107 F108 -->
 - **The diagnosis that changed.** A friend's wife was told she needed surgery and 15 days in hospital just before the children's exams. He fell into deep gloom. That day he gave money to a struggling employee, with the intention of her recovery. Before the man had closed the door, the hospital called: a new diagnosis, no surgery needed. <!-- F109 -->
 - **Harsh self-talk.** Sometimes your fiercest companion is yourself. <!-- F110 --> "Wherever I go the doors close, I'm a failure": what you say to yourself does as much harm as what others say to you, and in his view life responds to it. <!-- F111 F112 -->
+
+## The idea, explained
+
+<!-- explained -->
+
+### Comparison, done fairly
+
+People judge their own lives largely by comparing themselves with others, a tendency described as **social comparison** ([Festinger, 1954](https://doi.org/10.1177/001872675400700202)). His point is about doing it badly: comparing upwards, on one detail, at a low moment. A fair comparison looks at all of a life, both ways.
+
+### Social media
+
+Studies find that **passive** use of social media, scrolling through others' posts without interacting, lowers mood over time, partly through envy ([Verduyn et al., 2015](https://doi.org/10.1037/xge0000057)). His name for it, "social disconnection media", captures the other half: time spent in feeds is taken from the people in the room.
+
+### The voice in your head
+
+How you talk to yourself matters. One finding: people who coach themselves in the second or third person ("you can handle this") instead of "I" manage stress better, because it creates a little distance ([Kross et al., 2014](https://doi.org/10.1037/a0035173)). It is a practical version of his advice to speak to yourself kindly.
+
+| Blocker | The quick question to ask |
+| --- | --- |
+| Comparison | Am I comparing all of my life, or one part? |
+| Gifts treated as rights | Was this ever owed to me? |
+| Expecting perfection | Am I expecting more than people can give? |
+| Gloomy company | Who do I come away from heavier? |
+| Feeds | Did I connect with anyone, or just watch? |
+| "It will always be like this" | When did a hard time last actually end? |
+| Harsh self-talk | Would I say this to a friend? |
+
+## Key terms
+
+<!-- explained -->
+
+Comparison · Gifts (hibat) and rights (huquq) · Permanence of circumstances (dawam al-hal) · Self-talk.
