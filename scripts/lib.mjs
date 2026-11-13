@@ -11,10 +11,10 @@ export function readYaml(rel) {
   return fs.existsSync(p) ? YAML.parse(fs.readFileSync(p, 'utf8')) : null;
 }
 
-// "[0:12:34] text" lines -> [{ ts: '0:12:34', text }]
+// "[0:12:34] text" or "[07.012] text" lines -> [{ ts: '0:12:34' | '07.012', text }]
 export function loadTranscript(file) {
   return fs.readFileSync(file, 'utf8').split('\n')
-    .map((l) => l.match(/^\[(\d+:\d\d:\d\d)\] (.*)$/))
+    .map((l) => l.match(/^\[(\d+:\d\d:\d\d|\d{2}\.\d{3})\] (.*)$/))
     .filter(Boolean)
     .map((m) => ({ ts: m[1], text: m[2] }));
 }

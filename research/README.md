@@ -25,6 +25,8 @@ Each paragraph or bullet in a chapter ends with a hidden note such as `<!-- F012
 
 It understands YouTube's copied transcript (`0:022 seconds...`, `1:051 minute, 5 seconds...`), plain `0:02 text` lines, and `.srt`/`.vtt` subtitle files.
 
+A transcript with no timestamps but with `### Chapter N: title` lines is numbered by chapter and line instead: `[07.024] text`. Facts then point to `S1@07.024`. This is the case for this project's episode.
+
 ## Adding another source
 
 1. Add it to `sources.yml` with the next id.

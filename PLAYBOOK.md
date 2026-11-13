@@ -62,7 +62,7 @@ This playbook keeps the fast, clear order of Claiming Ideas and the fact base an
 
 **Steps**
 1. Save the file exactly as received as `research/transcripts/S1-original.txt`.
-2. Clean it: `node scripts/clean-transcript.mjs research/transcripts/S1-original.txt > research/transcripts/S1.txt`. Result: one `[h:mm:ss] text` line per caption, chapter markers kept as `## …` lines.
+2. Clean it: `node scripts/clean-transcript.mjs research/transcripts/S1-original.txt > research/transcripts/S1.txt`. Result: one `[h:mm:ss] text` line per caption, chapter markers kept as `## …` lines. If the transcript has no timestamps but has `### Chapter N` markers, each line is numbered `[NN.LLL]` (chapter.line) instead, and facts cite `S1@07.024`; ask for the video's chapter times so the site can still link to each chapter's moment.
 3. Fill in `research/sources.yml` for S1: title (original and English), publisher, host, guest and their role, URL, date, language, length, and where the transcript came from (who translated it).
 4. Read the whole transcript once. In `research/skipped.md`, list what will not be used, with timestamps: trailer, sponsor reads, app promotion, off-topic stretches, closing chat.
 5. Set `episode.video` and `episode.length` in `site.config.json`.
