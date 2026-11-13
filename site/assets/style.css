@@ -13,6 +13,7 @@
   --coral-text: #8f2c25;
   --amber: #d9952b;           /* dawn: glow and progress */
   --amber-soft: rgba(217, 149, 43, .26);
+  --amber-text: #8a5a0e;      /* amber for text: 4.8:1 on wool */
   --grid: rgba(27, 29, 38, .05);
   --grid-strong: rgba(27, 29, 38, .1);
   --rule: rgba(27, 29, 38, .2);
@@ -29,7 +30,7 @@
   :root:not([data-theme="light"]) {
     --sand: #121319; --paper: #1b1c25; --paper-2: #23242f; --ink: #efe5d1; --ink-2: #c9bfae; --muted: #9a93a0;
     --coral: #e2685c; --signal: #e2685c; --signal-ink: #1a0f0d; --signal-text: #ec7d71; --coral-text: #ec7d71;
-    --amber: #f0b354; --amber-soft: rgba(240, 179, 84, .16);
+    --amber: #f0b354; --amber-text: #f0b354; --amber-soft: rgba(240, 179, 84, .16);
     --grid: rgba(239,229,209,.04); --grid-strong: rgba(239,229,209,.08);
     --rule: rgba(239,229,209,.18); --card: rgba(27,28,37,.82); --shadow: 0 1px 0 rgba(0,0,0,.3), 0 14px 34px -20px rgba(0,0,0,.85);
     color-scheme: dark;
@@ -38,7 +39,7 @@
 :root[data-theme="dark"] {
   --sand: #121319; --paper: #1b1c25; --paper-2: #23242f; --ink: #efe5d1; --ink-2: #c9bfae; --muted: #9a93a0;
   --coral: #e2685c; --signal: #e2685c; --signal-ink: #1a0f0d; --signal-text: #ec7d71; --coral-text: #ec7d71;
-  --amber: #f0b354; --amber-soft: rgba(240, 179, 84, .16);
+  --amber: #f0b354; --amber-text: #f0b354; --amber-soft: rgba(240, 179, 84, .16);
   --grid: rgba(239,229,209,.04); --grid-strong: rgba(239,229,209,.08);
   --rule: rgba(239,229,209,.18); --card: rgba(27,28,37,.82); --shadow: 0 1px 0 rgba(0,0,0,.3), 0 14px 34px -20px rgba(0,0,0,.85);
   color-scheme: dark;
@@ -479,7 +480,7 @@ html[lang="ar"] .prose blockquote { font-family: var(--f-body); }
 .card a { border-radius: 6px; }
 .card a::after { width: 100%; height: 7px; inset-inline: 0; bottom: 0; border-radius: 0; opacity: .8; background: var(--signal);
   -webkit-mask: var(--sadu) 0 0 / 12px 7px repeat-x; mask: var(--sadu) 0 0 / 12px 7px repeat-x; }
-.card-n { font-family: "Gloock", serif; color: var(--amber); -webkit-text-stroke: 0; }
+.card-n { font-family: "Gloock", serif; color: var(--amber-text); -webkit-text-stroke: 0; }
 html[lang="ar"] .card-t { font-family: var(--f-display); font-weight: 700; font-size: 1.3rem; line-height: 1.5; }
 .widget { border-radius: 8px; }
 .widget::before { background: var(--sand); color: var(--signal-text); }
