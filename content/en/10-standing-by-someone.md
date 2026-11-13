@@ -30,3 +30,30 @@ starts: "1:05:08"
 - **Kind words heal.** He says gentle words genuinely help recovery. <!-- F133 -->
 - **Visitors too.** A visitor leaving a sick man told his son: if your father dies, bury him in the village cemetery with his parents. <!-- F134 -->
 - **What to say.** "There's nothing wrong with you" hurts a patient, who wants to feel understood. Say "may God heal you" instead. <!-- F135 -->
+
+## The idea, explained
+
+<!-- explained -->
+
+### Judging a decision by its result
+
+His cousin's words, "you made the right call with what you knew then", correct a well-documented error: **outcome bias**, judging the quality of a decision by how it turned out rather than by the information available when it was made ([Baron & Hershey, 1988](https://doi.org/10.1037/0022-3514.54.4.569)). A good decision can end badly; reminding a friend of that removes the extra weight of self-blame.
+
+### The four moves
+
+| Do | Avoid |
+| --- | --- |
+| Look at him; put the phone away | Glancing around while he talks |
+| Listen without criticising | "It's your own fault" |
+| Judge the decision by what he knew then | Hindsight verdicts |
+| Advise in a way that keeps his dignity | "The resit was made for people like you" |
+
+### Words in hospitals
+
+He says kind words help healing. Reviews of trials in which doctors were trained to communicate with more warmth and clarity find small but real improvements in patients' health outcomes ([Kelley et al., 2014](https://doi.org/10.1371/journal.pone.0094207)). A careless sentence at a bedside is remembered for years; the mother whose son is three today still remembers hers.
+
+## Key terms
+
+<!-- explained -->
+
+Psychological balance · Outcome bias · Bedside manner · Health, the hidden crown.

@@ -19,3 +19,30 @@ starts: "25:46"
 - **The Prophet was not spared.** At Uhud his tooth was broken, his uncle Hamza killed and his army defeated. At the Kaaba, while he prayed, Uqba ibn Abi Mu'ayt strangled him until he nearly died. <!-- F053 F054 -->
 - **Nor the other prophets.** He mentions Job's long illness, Jacob's long separation from Joseph, and Abraham thrown into the fire. <!-- F055 F056 -->
 - **So expect it.** Expect hardships and program yourself for them, so that you pass through them instead of fighting them. <!-- F057 -->
+
+## The idea, explained
+
+<!-- explained -->
+
+### A ladder, not a verdict
+
+The four levels are a classic scheme in Islamic writing on the heart, found for example in Ibn al-Qayyim. They describe the **response**, not the event: two people can face the same loss and stand on different rungs.
+
+| Level | Inside | Outside | What changes going up |
+| --- | --- | --- | --- |
+| Discontent and panic | Protest | Complaint, blame | |
+| Patience | Pain, held in | Restraint | Stops fighting the decree |
+| Contentment | Trust | Calm | Stops feeling it as an injustice |
+| Gratitude | Seeing a gift | Thanks | Sees good in it |
+
+The useful question is not "which rung am I on?" but "what would one rung up look like for me today?"
+
+### Hardship is not a sign of being unloved
+
+His second point removes a common extra burden: the belief that suffering proves God is displeased. The examples he chooses, the Prophet at Uhud and at the Kaaba, Job, Jacob and Abraham, are the people closest to God in his tradition, and each was tested hard.
+
+## Key terms
+
+<!-- explained -->
+
+Discontent (sukht) · Panic (jaza') · Patience (sabr) · Contentment (rida) · Gratitude (shukr).

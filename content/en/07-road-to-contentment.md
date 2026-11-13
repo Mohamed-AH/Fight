@@ -21,3 +21,37 @@ starts: "36:49"
 - **Grief can kill.** He says grief is a killer in the literal sense, citing the verse in which God tells the Prophet he might destroy himself with grief. <!-- F091 F092 -->
 - **The immune system.** In his description the immune system fights invaders efficiently on one condition, that you are at ease; in grief, panic and discontent it shuts down. <!-- F093 F094 -->
 - **Contentment is not numbness.** When his son Ibrahim died, the Prophet said "the eye weeps and the heart grieves", and was still content. <!-- F095 -->
+
+## The idea, explained
+
+<!-- explained -->
+
+### Umar's two options
+
+Umar's sentence is a short lesson in what you control. The decree passes either way. What is still open is how you carry it, and that decides whether it ends as reward or as burden.
+
+### Can grief really kill?
+
+He says grief is a killer, literally. Research supports a careful version of this. People who lose a spouse have a raised risk of dying in the following months, especially soon after the loss ([Stroebe, Schut & Stroebe, 2007](https://doi.org/10.1016/S0140-6736(07)61816-9)). Severe emotional shock can also trigger a rare, usually reversible heart condition nicknamed "broken heart syndrome".
+
+### Does sadness switch off the immune system?
+
+Not like a switch. A large review of stress and immunity found that **brief** stress actually boosts some immune defences, while **long-lasting** stress, such as ongoing grief, caregiving or unemployment, wears several of them down ([Segerstrom & Miller, 2004](https://doi.org/10.1037/0033-2909.130.4.601)).
+
+| What he says | What the research says |
+| --- | --- |
+| Grief can kill | Bereavement raises the risk of death for a time, especially early on |
+| The immune system works only if you are at ease | Short stress can boost immunity; chronic stress weakens it |
+| Contentment makes you healthier | Lower chronic stress is linked to better health |
+
+So the advice holds, with the right emphasis: it is the long, unrelieved discontent that does the damage, and that is exactly what he warns against.
+
+### Contentment is not numbness
+
+The Prophet wept for his son Ibrahim and was still content. Contentment, in his telling, lives alongside sadness; what it rules out is protest and despair.
+
+## Key terms
+
+<!-- explained -->
+
+Contentment (rida) · Reward (ajr) · Burden (wizr) · Chronic stress · Bereavement.

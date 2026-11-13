@@ -20,3 +20,31 @@ starts: "1:15:09"
 - **You are not the only one.** "Death in company is a mercy": no one escapes hardship. <!-- F146 -->
 - **A gift.** In his view a crisis is a gift from God, rewarded in the hereafter, while blessings are accounted for. <!-- F148 -->
 - **Heart and mind.** The host sums it up: managing a crisis is part heart, part mind. The guest agrees, and turns to the practical steps. <!-- F149 -->
+
+## The idea, explained
+
+<!-- explained -->
+
+### Fragility and interpretation
+
+His examples, the manager's request for edits and the friend who has not replied, have something in common: the event is small and the **interpretation** is large ("I'm a failure", "he hates me"). Much of the weight comes from the story we tell about the event, which is the part we can work on.
+
+### Acceptance is not surrender
+
+He draws a careful line: accept the situation, and keep working to change it. Acceptance and Commitment Therapy draws the same line, pairing acceptance of what you cannot control with committed action on what you value ([Hayes et al., 2006](https://doi.org/10.1016/j.brat.2005.06.006)).
+
+| Acceptance | Surrender |
+| --- | --- |
+| "This is happening, and I can live with it" | "This is happening, so nothing I do matters" |
+| Keeps acting to improve things | Stops acting |
+| Lowers the inner fight | Gives up the outer effort |
+
+### Heart and mind
+
+The chapter closes the "inner" half of the episode, managing the heart through trust, good expectation of God and acceptance. The next chapter turns to the mind and to practical steps.
+
+## Key terms
+
+<!-- explained -->
+
+Psychological fragility · Acceptance · Surrender · Toil (kabad).

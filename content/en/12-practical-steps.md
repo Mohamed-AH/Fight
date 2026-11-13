@@ -39,3 +39,33 @@ starts: "1:22:04"
 - **Life is not tailored to us.** Sometimes you don't get option one; you get option two, and the good is in option two, as Tabuk was for him. <!-- F180 F181 -->
 - **Not numbness.** He is not asking people to numb themselves, but to keep striving within what is available. <!-- F182 -->
 - **Complete from now.** Treat your life as complete from now, and keep working to complete it. <!-- F183 -->
+
+## The idea, explained
+
+<!-- explained -->
+
+### Why so many of these steps work
+
+Several of his steps match well-tested findings:
+
+| His step | What research says |
+| --- | --- |
+| Don't seat the worry | Dwelling on a problem (rumination) prolongs low mood ([Nolen-Hoeksema et al., 2008](https://doi.org/10.1111/j.1745-6924.2008.00088.x)) |
+| Imagine life without | Imagining a good thing gone makes people value it more ([Koo et al., 2008](https://doi.org/10.1037/a0012415)) |
+| Do something kind | Spending on others lifts mood more than spending on yourself ([Dunn, Aknin & Norton, 2008](https://doi.org/10.1126/science.1150952)) |
+| Sleep and exercise | Exercise has a meaningful effect on depression ([Schuch et al., 2016](https://doi.org/10.1016/j.jpsychires.2016.02.023)) |
+| Treat yourself as a friend | Self-compassion is linked with less anxiety and depression ([Neff, 2003](https://doi.org/10.1080/15298860309032)) |
+
+### Keeping life's circles apart
+
+His circles idea is a way of stopping a crisis in one area of life from spilling into the others. When work goes wrong, home and friends can still be places where things go right, if you don't bring the crisis in with you.
+
+### Option two
+
+The closing advice, for career setbacks and unemployment, joins two halves of the episode: keep striving, and treat the "second choice" you end up with as possibly the place where the good was waiting, as Tabuk was for him.
+
+## Key terms
+
+<!-- explained -->
+
+Rumination · Life's circles · Self-compassion · Mental subtraction · Unemployment (batala).

@@ -23,3 +23,29 @@ starts: "8:12"
 - **"May you never see harm."** A wise man heard someone say it and replied that it was like wishing him death, since the living must see harm. <!-- F031 -->
 - **No one is spared.** Not heads of state, kings, princes or ministers: each has worries suited to his life. <!-- F032 -->
 - **Life comes in pairs.** Life and death, health and sickness, happiness and misery, sweet and bitter, ease and hardship. Everyone must drink from both cups. <!-- F033 F034 -->
+
+## The idea, explained
+
+<!-- explained -->
+
+### Expecting the weather
+
+His argument is about **expectations**. If you believe life should be smooth, every hardship arrives as an injustice and hurts twice: once as the event and again as the outrage. If you expect hardship as part of the climate, it still hurts, but only once. That is why he insists that no one is spared, from neighbours to kings, and that "may you never see harm" is, strictly, a wish for death.
+
+### Some adversity, not none
+
+Research supports a version of this. In a large study following people over several years, those who had lived through **some** adversity were more resilient and more satisfied with life than those with a lot of adversity, and also than those with **none** ([Seery, Holman & Silver, 2010](https://doi.org/10.1037/a0021344)). People who have drunk from both cups seem to handle the next bitter one better.
+
+### The pebble jar
+
+The man who counted only his good days was keeping a different kind of record: not how long he had lived, but how much of his life he had actually enjoyed. It is a useful question to ask of a week, too: how many pebbles went in?
+
+### Patience in the Qur'an
+
+The figure he gives, about 90 mentions of patience, goes back to Imam Ahmad and is quoted by Ibn al-Qayyim, who lists the many forms those mentions take ([Ibn al-Qayyim, *Where patience is mentioned in the Qur'an*](https://abdurrahman.org/2014/10/03/where-patience-is-mentioned-in-the-quraan-imam-ibn-al-qayyim)).
+
+## Key terms
+
+<!-- explained -->
+
+Test (ibtila') · Patience (sabr) · Expectations · Resilience.
