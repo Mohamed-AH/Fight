@@ -85,9 +85,7 @@ a:hover { color: var(--signal-text); }
   position: sticky; top: 0; z-index: 20;
   display: flex; align-items: center; justify-content: space-between; gap: 12px;
   padding: 10px var(--gutter);
-  background: var(--sand);
-  background: color-mix(in srgb, var(--sand) 86%, transparent);
-  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+  background: var(--sand); /* solid: see-through bars read badly on older iPhones */
   border-bottom: 1px solid var(--rule);
 }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-family: var(--f-display); font-size: 1.05rem; white-space: nowrap; }
@@ -353,7 +351,7 @@ html[dir="rtl"] .drawer a[aria-current] { box-shadow: inset -3px 0 0 var(--signa
   .bottom-nav {
     display: grid; grid-template-columns: repeat(4, 1fr); position: fixed; inset-inline: 0; bottom: 0; z-index: 30;
     padding: 6px 8px calc(6px + env(safe-area-inset-bottom));
-    background: var(--paper); background: color-mix(in srgb, var(--paper) 92%, transparent); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+    background: var(--paper);
     border-top: 1px solid var(--rule); box-shadow: 0 -6px 20px rgba(0,0,0,.08);
   }
   .bn { display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 6px 2px; border: 0; background: none; color: var(--ink);
