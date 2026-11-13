@@ -7,7 +7,7 @@ starts: "59:30"
 
 # 9. Gratitude: three blessings before sleep
 
-> "It is enough, for gratitude, that you woke up today." Dr. Saad Al-Arifi ([59:30](https://www.youtube.com/watch?v=MSsimWznk3U&t=3570s)) <!-- F113 -->
+> "It is enough, for gratitude, that you woke up today." ([59:30](https://www.youtube.com/watch?v=MSsimWznk3U&t=3570s)) <!-- F113 -->
 
 ## From the episode
 

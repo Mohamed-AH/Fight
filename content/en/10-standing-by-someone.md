@@ -7,7 +7,7 @@ starts: "1:05:08"
 
 # 10. Standing by someone in a crisis
 
-> "You made the decision you believed was right at that stage." A cousin's words, quoted by Dr. Saad Al-Arifi ([1:05:08](https://www.youtube.com/watch?v=MSsimWznk3U&t=3908s)) <!-- F123 -->
+> "You made the decision you believed was right at that stage." A cousin's words ([1:05:08](https://www.youtube.com/watch?v=MSsimWznk3U&t=3908s)) <!-- F123 -->
 
 ## From the episode
 

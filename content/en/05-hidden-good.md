@@ -7,7 +7,7 @@ starts: "29:04"
 
 # 5. The hidden good
 
-> "The good is hidden. It only comes to you hiding behind the event." Dr. Saad Al-Arifi ([29:04](https://www.youtube.com/watch?v=MSsimWznk3U&t=1744s)) <!-- F058 F059 -->
+> "The good is hidden. It only comes to you hiding behind the event." ([29:04](https://www.youtube.com/watch?v=MSsimWznk3U&t=1744s)) <!-- F058 F059 -->
 
 ## From the episode
 

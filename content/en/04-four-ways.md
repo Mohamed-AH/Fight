@@ -7,7 +7,7 @@ starts: "25:46"
 
 # 4. Four ways to receive a crisis
 
-> "People differ greatly. Let me divide them into four levels." Dr. Saad Al-Arifi ([25:46](https://www.youtube.com/watch?v=MSsimWznk3U&t=1546s)) <!-- F047 -->
+> "People differ greatly. Let me divide them into four levels." ([25:46](https://www.youtube.com/watch?v=MSsimWznk3U&t=1546s)) <!-- F047 -->
 
 ## From the episode
 

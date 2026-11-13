@@ -7,7 +7,7 @@ starts: "8:12"
 
 # 2. Reward or punishment?
 
-> "Are we humans on this earth as a reward, or as a punishment?" Dr. Saad Al-Arifi ([8:12](https://www.youtube.com/watch?v=MSsimWznk3U&t=492s)) <!-- F019 -->
+> "Are we humans on this earth as a reward, or as a punishment?" ([8:12](https://www.youtube.com/watch?v=MSsimWznk3U&t=492s)) <!-- F019 -->
 
 ## From the episode
 

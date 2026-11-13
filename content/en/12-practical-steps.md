@@ -7,7 +7,7 @@ starts: "1:22:04"
 
 # 12. Practical steps through a crisis
 
-> "The world gives in order to take... an event took part of you and left most of you." A visitor to a grieving king, quoted by Dr. Saad Al-Arifi ([1:22:04](https://www.youtube.com/watch?v=MSsimWznk3U&t=4924s)) <!-- F155 F156 -->
+> "The world gives in order to take... an event took part of you and left most of you." A visitor to a grieving king ([1:22:04](https://www.youtube.com/watch?v=MSsimWznk3U&t=4924s)) <!-- F155 F156 -->
 
 ## From the episode
 

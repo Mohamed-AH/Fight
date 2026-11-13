@@ -16,6 +16,20 @@
     "video": "https://www.youtube.com/watch?v=MSsimWznk3U",
     "length": "1:46:51"
   },
+  "guest": {
+    "names": {
+      "en": [
+        "Saad",
+        "Arifi"
+      ],
+      "ar": [
+        "العريفي",
+        "د. سعد"
+      ]
+    },
+    "maxPerChapter": 0,
+    "note": "The guest is introduced on the home and sources pages; chapters attribute quotes by timestamp only."
+  },
   "fonts": {
     "preload": {
       "en": "newsreader-latin-400",

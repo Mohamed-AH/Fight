@@ -7,7 +7,7 @@ starts: "2:28"
 
 # 1. Life on replay
 
-> "You and I are now sitting here for the second time... the life we are living is a film, and we are watching the rebroadcast." Dr. Saad Al-Arifi ([2:28](https://www.youtube.com/watch?v=MSsimWznk3U&t=148s)) <!-- F008 -->
+> "You and I are now sitting here for the second time... the life we are living is a film, and we are watching the rebroadcast." ([2:28](https://www.youtube.com/watch?v=MSsimWznk3U&t=148s)) <!-- F008 -->
 
 ## From the episode
 

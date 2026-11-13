@@ -7,7 +7,7 @@ starts: "36:49"
 
 # 7. The road to contentment
 
-> "If you are patient, God's decree passes and you are rewarded. If you are discontent, God's decree passes and you carry the burden." Umar ibn al-Khattab, quoted by Dr. Saad Al-Arifi ([36:49](https://www.youtube.com/watch?v=MSsimWznk3U&t=2209s)) <!-- F079 F080 -->
+> "If you are patient, God's decree passes and you are rewarded. If you are discontent, God's decree passes and you carry the burden." Umar ibn al-Khattab ([36:49](https://www.youtube.com/watch?v=MSsimWznk3U&t=2209s)) <!-- F079 F080 -->
 
 ## From the episode
 

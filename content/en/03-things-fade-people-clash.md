@@ -7,7 +7,7 @@ starts: "17:28"
 
 # 3. Two laws: things fade, people clash
 
-> "The delicious does not stay delicious forever." A saying quoted by Dr. Saad Al-Arifi ([17:28](https://www.youtube.com/watch?v=MSsimWznk3U&t=1048s)) <!-- F038 -->
+> "The delicious does not stay delicious forever." A saying ([17:28](https://www.youtube.com/watch?v=MSsimWznk3U&t=1048s)) <!-- F038 -->
 
 ## From the episode
 
