@@ -231,7 +231,8 @@ Life on Replay kept tools and design in separate pull requests (PR 4 and PR 5). 
 **Automatic** (runs on every pull request in `.github/workflows/checks.yml`):
 - the site builds;
 - `check:facts` every quote is in the transcript at its timestamp;
-- `check:chapters` every paragraph cites a fact or a source, both languages cite the same facts, and a list of used facts still marked `check` or `disputed`;
+- `check:chapters` every paragraph cites a fact or a source, both languages cite the same facts, chapters do not name the guest, and a list of used facts still marked `check` or `disputed`;
+- `check:style` no stock machine-writing phrases, no dashes as punctuation, no leftover scaffolding;
 - `check:site` links and files exist, titles under 70 characters, descriptions present, no fact codes or comments leaked, `lang` and `dir` set;
 - `html-validate` the HTML is valid.
 
@@ -246,6 +247,8 @@ Life on Replay kept tools and design in separate pull requests (PR 4 and PR 5). 
 - [ ] Sharing: paste a chapter link into WhatsApp or X and check the preview in both languages.
 - [ ] The disclaimer and podcast credit are on every page.
 - [ ] Every DOI and outside link opens the right work. (Where `doi.org` and Crossref are blocked, confirm each by searching its title.)
+- [ ] **Guest named sparingly:** the guest is introduced on the home and sources pages only; chapters attribute quotes by timestamp. `check:chapters` enforces this with `guest` in `site.config.json`.
+- [ ] **Plain writing:** `check:style` passes (no stock phrases, dashes or leftover scaffolding), then read three chapters aloud in each language and cut anything that sounds like a template: clever "X, not Y" headings, padded lists of three, lines that restate the previous one.
 - [ ] Print the signature tool page if it is meant to be printed.
 - [ ] Open the menus on a phone over the live site and check nothing is hidden under the header.
 
@@ -293,7 +296,7 @@ Write the results in `docs/audit.md`, so the next project can see what was check
 - **Keep:** a written design brief before styling. It is what made both sites look designed for their subject.
 - **Avoid:** heavy libraries for the signature tool unless trimmed and self-hosted, with a still-image fallback.
 - **Avoid:** inline `onclick` and outside fonts or scripts; the security policy in `site/_headers` blocks them.
-- **Avoid:** naming the guest in every sentence (Claiming Ideas renamed and cut mentions in its second PR).
+- **Avoid:** naming the guest in every sentence (Claiming Ideas renamed and cut mentions in its second PR). Life on Replay still named him in every chapter's opening quote until the owner noticed; it is now a check.
 - **Keep:** the owner reviewing on the preview address on their phone. The one real bug the owner found on Life on Replay (chapter 1 hidden under the band in the menu) came from looking at the live site on a phone, not from any check.
 - **Keep:** a configurable `pages` list in `site.config.json` for pages after the chapters, instead of editing `build.mjs` per project.
 - **Keep:** a transcript without timestamps is fine. Number the lines by chapter (`[07.024]`) and take chapter times from the video description.
