@@ -91,6 +91,30 @@ function extras(lang, pages, cur) {
     .map(([s, label]) => `<li class="extra"><a href="${hrefFor(s)}"${cur(s)}>${esc(label)}</a></li>`).join('');
 }
 
+// Home hero figure: the episode as a broadcast tape, one woven diamond per chapter start.
+// Runs right-to-left on Arabic pages, like a mirrored video player.
+function tape(lang, pages) {
+  const total = CONFIG.episode.length ? secs(CONFIG.episode.length) : 0;
+  const chs = chaptersOf(pages).filter((p) => p.data.starts);
+  if (!total || !chs.length) return '';
+  const W = 600, x0 = 8, x1 = 592, rtl = UI[lang].dir === 'rtl';
+  const X = (t) => { const f = t / total; return (rtl ? x1 - f * (x1 - x0) : x0 + f * (x1 - x0)).toFixed(1); };
+  const ticks = chs.map((p, i) => {
+    const x = X(secs(p.data.starts));
+    return `<path class="tick${i % 3 === 0 ? ' lit' : ''}" style="--i:${i}" d="M${x} 30l6 6-6 6-6-6z"/>`;
+  }).join('');
+  const rec = lang === 'ar' ? 'إعادة ●' : '● REPLAY';
+  const start = rtl ? x1 : x0, end = rtl ? x0 : x1, anchor = rtl ? 'end' : 'start', anchorEnd = rtl ? 'start' : 'end';
+  return `<figure class="tape" aria-hidden="true"><svg viewBox="0 0 ${W} 64">
+  <rect class="track" x="${x0}" y="35" width="${x1 - x0}" height="2" rx="1"/>
+  <rect class="played" x="${x0}" y="34.5" width="${x1 - x0}" height="3" rx="1.5"/>
+  ${ticks}
+  <text class="rec" x="${start}" y="16" text-anchor="${anchor}">${rec}</text>
+  <text x="${start}" y="60" text-anchor="${anchor}">0:00</text>
+  <text x="${end}" y="60" text-anchor="${anchorEnd}">${esc(CONFIG.episode.length)}</text>
+</svg></figure>`;
+}
+
 function nav(lang, pages, current) {
   const u = UI[lang];
   const cur = (s) => (s === current ? ' aria-current="page"' : '');
@@ -234,6 +258,7 @@ function buildLang(lang) {
   <h1>${esc(p.data.title)}</h1>
   ${p.data.subtitle ? `<p class="sub">${esc(p.data.subtitle)}</p>` : ''}
   <a class="btn" href="${VIDEO}" target="_blank" rel="noopener"><span aria-hidden="true">▶</span> ${u.watch}${CONFIG.episode.length ? ` · ${esc(CONFIG.episode.length)}` : ''}</a>
+  ${tape(lang, pages)}
 </section>
 <article class="prose home reveal">${html}</article>`;
     } else if (p.data.chapter) {
