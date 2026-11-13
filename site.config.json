@@ -1,7 +1,7 @@
 {
   "_comment": "Every project-specific setting lives here. build.mjs and the checks read it; nothing else is hard-coded.",
   "url": "https://fight.pages.dev",
-  "themeColor": "#12343b",
+  "themeColor": "#1b1d26",
   "languages": [
     "en",
     "ar"
@@ -18,7 +18,7 @@
   },
   "fonts": {
     "preload": {
-      "en": "literata-latin-400",
+      "en": "newsreader-latin-400",
       "ar": "noto-naskh-arabic-arabic-400"
     }
   },
