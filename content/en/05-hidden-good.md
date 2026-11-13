@@ -15,7 +15,7 @@ starts: "29:04"
 - **It comes after.** The good never walks beside the crisis. At the moment of the event you see only the crisis; wait, and the good comes behind it. <!-- F059 -->
 - **Hasty by nature.** He explains "man was created hasty" as hasty to be angry before seeing the good in what was decreed. <!-- F060 -->
 - **You don't need to know why.** It is not a condition that you understand the wisdom behind a hardship. <!-- F061 -->
-- **"Do not accuse God in His decree."** A Bedouin asked the Prophet for short advice and was told this. Do not say "I pray, and You test me, while that man never enters a mosque". <!-- F062 -->
+- **"Do not accuse God in His decree."** In his telling, a Bedouin asked the Prophet for short advice and was told this. Do not say "I pray, and You test me, while that man never enters a mosque". <!-- F062 -->
 - **The kidney.** A medical student standing by the road with friends was hit by a car. They escaped with light injuries; he had a deep wound and lost a kidney. <!-- F063 --> Out of surgery, the doctor said: "Good news, we removed the kidney." <!-- F064 --> The kidney had the beginnings of a tumour. <!-- F065 -->
 
 ## The idea, explained

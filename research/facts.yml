@@ -113,11 +113,11 @@
   note: ""
 - id: F014
   chapter: 01-life-on-replay
-  claim: "He cites the hadith of Anas: 'How wonderful is the affair of the believer: God decrees nothing for him but that it is good.'"
+  claim: "He cites the hadith: 'How wonderful is the affair of the believer: God decrees nothing for him but that it is good.'"
   source: "S1@02.026"
   quote: "عجبت لامر المؤمن لا يقضي الله له قضاء الا كان"
-  status: from-source
-  note: "Hadith (Muslim, from Suhayb; he attributes the narration to Anas). Check the narrator."
+  status: verified
+  note: "Sahih Muslim 2999, narrated by Suhayb. He attributes it to Anas; the site does not name a narrator."
 - id: F015
   chapter: 01-life-on-replay
   claim: "A friend's colleague's father needed a liver donation, and one of his sons was a match."
@@ -409,15 +409,15 @@
   claim: "He says Job suffered 18 years between life and death."
   source: "S1@06.022"
   quote: "ايوب عليه السلام 18 سنه"
-  status: check
-  note: "Figure from tradition; sources differ."
+  status: verified
+  note: "Job's long illness is undisputed. The 18-year figure comes from a report in later collections and sources differ, so the site says 'long illness' and gives no number."
 - id: F056
   chapter: 04-four-ways
   claim: "He says Jacob lost his son Joseph for 80 years."
   source: "S1@06.023"
   quote: "يعقوب عليه السلام يفقد ابنه يوسف 80 سنه"
-  status: check
-  note: "Figure from tradition; sources differ."
+  status: verified
+  note: "Jacob's long separation from Joseph is undisputed. Reports of its length range widely (some say 18, some 40, some 80 years), so the site gives no number."
 - id: F057
   chapter: 04-four-ways
   claim: "You must expect hardships and program yourself for them."
@@ -446,8 +446,8 @@
   claim: "He cites 'man was created hasty', explained as hasty to be angry before seeing the good."
   source: "S1@07.006"
   quote: "وخلق الانسان عجولا"
-  status: check
-  note: "Wording close to Qur'an 17:11 ('wa kana al-insanu 'ajula') and 21:37; check which he means."
+  status: verified
+  note: "His words blend Qur'an 17:11 ('man is ever hasty') and 21:37 ('man was created of haste'). The English paraphrase fits both; the Arabic site says 'the Qur'an describes man as hasty' rather than quoting a verse."
 - id: F061
   chapter: 05-hidden-good
   claim: "You do not have to know the wisdom behind a hardship."
@@ -460,8 +460,8 @@
   claim: "A Bedouin asked the Prophet for brief advice; he said 'do not accuse God in His decree'."
   source: "S1@07.015"
   quote: "لا تتهم الله في قضائه"
-  status: check
-  note: "Check the hadith's source and grading."
+  status: verified
+  note: "Musnad Ahmad, narrated by Ubada ibn al-Samit; graded hasan li-ghayrihi by al-Albani (Sahih al-Targhib 1307). In the hadith a man asks which deeds are best and this is the last, 'easier' advice; the site keeps the guest's telling and attributes it to him."
 - id: F063
   chapter: 05-hidden-good
   claim: "A medical student hit by a car with his friends suffered a deep wound that led to removing a kidney."
@@ -667,8 +667,8 @@
   claim: "He says grief is a killer, literally, not figuratively."
   source: "S1@09.051"
   quote: "اقول قاتل بالمعنى الحقيقي"
-  status: check
-  note: "Strong claim; context from research on bereavement and mortality."
+  status: opinion
+  note: "His view, presented as his. 'The idea, explained' adds the research: bereavement raises mortality risk for a time (Stroebe et al. 2007)."
 - id: F092
   chapter: 07-road-to-contentment
   claim: "He cites 'perhaps you would destroy yourself [with grief] that they do not believe'."
@@ -681,15 +681,15 @@
   claim: "He says the immune system works well only on condition that you are at ease."
   source: "S1@09.064"
   quote: "انك تكون مرتاح انك تكون مروق"
-  status: check
-  note: "Simplification; compare with psychoneuroimmunology research."
+  status: opinion
+  note: "His simplification, presented as 'in his description'. 'The idea, explained' corrects it: brief stress can boost immunity, chronic stress wears it down (Segerstrom & Miller 2004)."
 - id: F094
   chapter: 07-road-to-contentment
   claim: "He says the immune system breaks down in grief and discontent."
   source: "S1@09.067"
   quote: "يتعطل عن العمل ينهار عن العمل لما تكون انت في حاله حزن"
-  status: check
-  note: "Overstated; chronic stress suppresses some immune functions."
+  status: opinion
+  note: "Overstated; presented as his description and corrected in 'The idea, explained' (Segerstrom & Miller 2004)."
 - id: F095
   chapter: 07-road-to-contentment
   claim: "Contentment is not numbness: when his son Ibrahim died the Prophet said 'the eye weeps and the heart grieves'."
@@ -967,8 +967,8 @@
   claim: "He says kind words actually help healing."
   source: "S1@14.020"
   quote: "الكلام اللطيف يساعد ترى على الشفاء"
-  status: check
-  note: "Compare with research on clinician communication and patient outcomes."
+  status: opinion
+  note: "His view, presented as his. Supported in a qualified way by trials of clinician communication (Kelley et al. 2014, small but real effects)."
 - id: F134
   chapter: 10-standing-by-someone
   claim: "A visitor told a sick man's son: if your father dies, bury him in the village cemetery."

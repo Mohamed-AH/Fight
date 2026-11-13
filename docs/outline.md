@@ -23,7 +23,7 @@ Status: **draft, waiting for the owner's approval.**
 | C | Holding Steady | الصمود في الأزمات | The host's own framing: how to hold steady in the hardest times. Plain, searchable. |
 
 - Tagline: "A study companion to a conversation on facing life's crises" · "رفيق دراسي لحوار عن مواجهة أزمات الحياة"
-- Address: `fight.pages.dev` (the repository name), or a name matching the title if you create the Pages project under another name.
+- Address: `lifeonreplay.pages.dev` (live since 2026-11-13).
 
 ## Chapters
 
