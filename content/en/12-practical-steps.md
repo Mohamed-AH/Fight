@@ -7,7 +7,7 @@ starts: "1:22:04"
 
 # 12. Practical steps through a crisis
 
-> "The world gives in order to take... an event took part of you and left most of you." A visitor to a grieving king, quoted by Dr. Saad Al-Arifi ([1:22:04](https://www.youtube.com/watch?v=MSsimWznk3U&t=4924s)) <!-- F155 F156 -->
+> "The world gives in order to take... an event took part of you and left most of you." A visitor to a grieving king ([1:22:04](https://www.youtube.com/watch?v=MSsimWznk3U&t=4924s)) <!-- F155 F156 -->
 
 ## From the episode
 
@@ -60,7 +60,7 @@ Several of his steps match well-tested findings:
 
 His circles idea is a way of stopping a crisis in one area of life from spilling into the others. When work goes wrong, home and friends can still be places where things go right, if you don't bring the crisis in with you.
 
-### Option two
+### The second choice
 
 The closing advice, for career setbacks and unemployment, joins two halves of the episode: keep striving, and treat the "second choice" you end up with as possibly the place where the good was waiting, as Tabuk was for him.
 

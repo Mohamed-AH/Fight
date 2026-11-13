@@ -7,7 +7,7 @@ starts: "1:05:08"
 
 # 10. Standing by someone in a crisis
 
-> "You made the decision you believed was right at that stage." A cousin's words, quoted by Dr. Saad Al-Arifi ([1:05:08](https://www.youtube.com/watch?v=MSsimWznk3U&t=3908s)) <!-- F123 -->
+> "You made the decision you believed was right at that stage." A cousin's words ([1:05:08](https://www.youtube.com/watch?v=MSsimWznk3U&t=3908s)) <!-- F123 -->
 
 ## From the episode
 
@@ -50,7 +50,7 @@ His cousin's words, "you made the right call with what you knew then", correct a
 
 ### Words in hospitals
 
-He says kind words help healing. Reviews of trials in which doctors were trained to communicate with more warmth and clarity find small but real improvements in patients' health outcomes ([Kelley et al., 2014](https://doi.org/10.1371/journal.pone.0094207)). A careless sentence at a bedside is remembered for years; the mother whose son is three today still remembers hers.
+He says kind words help healing. Reviews of trials in which doctors were trained to communicate with more warmth and clarity find small improvements in patients' health outcomes ([Kelley et al., 2014](https://doi.org/10.1371/journal.pone.0094207)). A careless sentence at a bedside is remembered for years; the mother whose son is three today still remembers hers.
 
 ## Try it
 

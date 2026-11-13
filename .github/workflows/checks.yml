@@ -32,6 +32,9 @@ jobs:
       - name: Chapters cite their facts in both languages
         run: npm run check:chapters
 
+      - name: Plain writing (no stock phrases, dashes or scaffolding)
+        run: npm run check:style
+
       - name: Built pages (links, titles, descriptions, no leaked codes)
         run: npm run check:site
 

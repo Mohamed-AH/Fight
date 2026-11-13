@@ -23,6 +23,14 @@ for (const lang of CONFIG.languages) {
     const { data, content } = matter(fs.readFileSync(path.join(dir, file), 'utf8'));
     if (!data.chapter) { factIds(content).forEach((i) => { used[lang].add(i); if (!facts[i]) bad(`content/${lang}/${file}: unknown fact ${i}`); }); continue; }
     const rel = `content/${lang}/${file}`;
+    // the guest is introduced on the home and sources pages; chapters should not keep naming them
+    const guest = CONFIG.guest || {};
+    const names = (guest.names && guest.names[lang]) || [];
+    if (names.length) {
+      const hits = names.reduce((n, name) => n + content.split(name).length - 1, 0);
+      const max = guest.maxPerChapter ?? 0;
+      if (hits > max) bad(`${rel}: guest's name appears ${hits} time(s), at most ${max} allowed in a chapter (see guest in site.config.json)`);
+    }
     const ids = new Set();
     let exempt = false;
     let level = 0;

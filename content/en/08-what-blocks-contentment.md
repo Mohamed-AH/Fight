@@ -7,7 +7,7 @@ starts: "47:10"
 
 # 8. What blocks contentment
 
-> "Comparison is the door to misery." Dr. Saad Al-Arifi ([47:10](https://www.youtube.com/watch?v=MSsimWznk3U&t=2830s)) <!-- F096 -->
+> "Comparison is the door to misery." ([47:10](https://www.youtube.com/watch?v=MSsimWznk3U&t=2830s)) <!-- F096 -->
 
 ## From the episode
 

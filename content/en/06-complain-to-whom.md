@@ -7,7 +7,7 @@ starts: "32:50"
 
 # 6. Complain to whom?
 
-> "Complain to a friend and you grieve him, or to an enemy and he gloats." A wise man, quoted by Dr. Saad Al-Arifi ([32:50](https://www.youtube.com/watch?v=MSsimWznk3U&t=1970s)) <!-- F071 F072 -->
+> "Complain to a friend and you grieve him, or to an enemy and he gloats." A wise man ([32:50](https://www.youtube.com/watch?v=MSsimWznk3U&t=1970s)) <!-- F071 F072 -->
 
 ## From the episode
 

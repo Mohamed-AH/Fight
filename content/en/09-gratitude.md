@@ -7,7 +7,7 @@ starts: "59:30"
 
 # 9. Gratitude: three blessings before sleep
 
-> "It is enough, for gratitude, that you woke up today." Dr. Saad Al-Arifi ([59:30](https://www.youtube.com/watch?v=MSsimWznk3U&t=3570s)) <!-- F113 -->
+> "It is enough, for gratitude, that you woke up today." ([59:30](https://www.youtube.com/watch?v=MSsimWznk3U&t=3570s)) <!-- F113 -->
 
 ## From the episode
 
@@ -23,7 +23,7 @@ starts: "59:30"
 
 <!-- explained -->
 
-### The three blessings, tested
+### Testing the three blessings
 
 His nightly exercise is very close to one of the best-known experiments in positive psychology. People asked to write down **three good things** each evening for a week, and why they happened, were happier and less depressed for up to six months afterwards ([Seligman et al., 2005](https://doi.org/10.1037/0003-066X.60.5.410)). Another study had people keep a weekly gratitude list; they felt better about their lives and were more optimistic than those who listed hassles ([Emmons & McCullough, 2003](https://doi.org/10.1037/0022-3514.84.2.377)).
 

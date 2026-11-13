@@ -7,7 +7,7 @@ starts: "1:15:09"
 
 # 11. Are we fragile?
 
-> "Acceptance does not mean surrender." Dr. Saad Al-Arifi ([1:15:09](https://www.youtube.com/watch?v=MSsimWznk3U&t=4509s)) <!-- F145 -->
+> "Acceptance does not mean surrender." ([1:15:09](https://www.youtube.com/watch?v=MSsimWznk3U&t=4509s)) <!-- F145 -->
 
 ## From the episode
 
