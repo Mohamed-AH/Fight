@@ -2,17 +2,19 @@
 
 How to turn one podcast episode into a bilingual (English and Arabic) study website, published free on Cloudflare Pages.
 
-It is distilled from two finished projects:
+It is distilled from two finished projects and was then run end to end on a third:
 
-| | **imamabdulaziz.com** ([`benchai`](https://github.com/Mohamed-AH/benchai)) | **claiming-ideas.pages.dev** ([`research`](https://github.com/Mohamed-AH/research)) |
-|---|---|---|
-| Episode | Fnjan (Thmanyah), Dr. Talal Al-Tarifi, 3:13:57 | Salman Butt on research and business value, 1:15:47 |
-| Shape | **Story**: 14 chapters in date order | **Ideas**: 8 chapters, each pinned to a video timestamp |
-| Took | About 12 days, 11 pull requests | One day, 4 pull requests |
-| Best at | Accuracy: every paragraph traces to an exact quote; checks run on every PR | Speed and teaching: clear order of work, "The idea, explained" and "Try it" in every chapter |
-| Signature tool | 3D maps with a year slider | One interactive figure per chapter (forecast playground, calculators) |
+| | **imamabdulaziz.com** ([`benchai`](https://github.com/Mohamed-AH/benchai)) | **claiming-ideas.pages.dev** ([`research`](https://github.com/Mohamed-AH/research)) | **lifeonreplay.pages.dev** ([`Fight`](https://github.com/Mohamed-AH/Fight)) |
+|---|---|---|---|
+| Episode | Fnjan (Thmanyah), Dr. Talal Al-Tarifi, 3:13:57 | Salman Butt on research and business value, 1:15:47 | Petroly podcast, Dr. Saad Al-Arifi on life's crises, 1:46:51 |
+| Shape | **Story**: 14 chapters in date order | **Ideas**: 8 chapters, each pinned to a video timestamp | **Ideas**: 12 chapters from 17 episode markers |
+| Took | About 12 days, 11 pull requests | One day, 4 pull requests | About 8 hours over one evening and night, 7 pull requests, first run of this playbook |
+| Best at | Accuracy: every paragraph traces to an exact quote; checks run on every PR | Speed and teaching: clear order of work, "The idea, explained" and "Try it" in every chapter | Both at once: 183 facts checked on every PR, a Try it in most chapters, a printable crisis kit |
+| Signature tool | 3D maps with a year slider | One interactive figure per chapter (forecast playground, calculators) | "My crisis kit": a personal, printable plan that saves in the browser |
 
 This playbook keeps the fast, clear order of Claiming Ideas and the fact base and automatic checks of King Abdulaziz. The starter in this repository (`build.mjs`, `scripts/`, `research/`, `site/`) is the reusable part: a new project copies it and starts at stage 1.
+
+**Starting a new episode:** create the new repository from this one (it is easiest if `Mohamed-AH/Fight` is marked as a template repository on GitHub), then follow "Reset the starter" in stage 0. Everything you need to say to Claude is in the prompts below; the short version is "Follow PLAYBOOK.md for this episode, starting at stage 1", with the episode link and transcript attached.
 
 **Why we do this:** more publicity for the ideas in the episode, a form the audience can digest at their own pace, and a deep learning experience for us while building it.
 
@@ -24,19 +26,23 @@ This playbook keeps the fast, clear order of Claiming Ideas and the fact base an
 - Each stage below has: **purpose**, **inputs**, **steps**, a **prompt** to paste, and **done when**.
 - Two owner approvals gate the work: the **outline** (end of stage 2) and the **English text** (end of stage 4). Nothing is translated or designed before these.
 - Keep `main` always buildable. Cloudflare Pages publishes every push to `main`.
+- Connect Cloudflare Pages **early** (right after PR 1). Every pull request then gets its own preview address (`<branch>.<project>.pages.dev`), so the owner reviews the real site on their phone instead of screenshots.
+- If a pull request is opened on top of another that is not merged yet, merge them in order and point the later one's base at `main` before merging it.
 
 | Stage | Output | Pull request |
 |---|---|---|
 | 0. Set up | Repository from the starter | PR 1 |
 | 1. Transcript | `research/transcripts/S1.txt`, `sources.yml`, `skipped.md` | PR 2 |
-| 2. Plan | `docs/outline.md`, approved by the owner | (in the thread) |
+| 2. Plan | `docs/outline.md`, approved by the owner | PR 2 (approved in the thread) |
 | 3. Fact base | `research/facts.yml`, `names.yml` | PR 2 |
 | 4. Content | English chapters, approved by the owner | PR 2 |
 | 5. Explain concepts | "The idea, explained", glossary, sources page, then Arabic | PR 3 |
 | 6. Interactive tools | Signature tool and "Try it" widgets | PR 4 |
-| 7. Design | `docs/design-brief.md`, then the look | PR 4 |
-| 8. Audit | Checks green, manual audit fixes | PR 5 |
+| 7. Design | `docs/design-brief.md`, then the look | PR 5 |
+| 8. Audit | Checks green, manual audit fixes, `docs/audit.md` | PR 6 and up (one per fix the owner reports) |
 | 9. Publish | Cloudflare Pages, analytics, optional domain | (settings) |
+
+Life on Replay kept tools and design in separate pull requests (PR 4 and PR 5). Both are big; reviewing them apart was easier than together.
 
 ---
 
@@ -48,7 +54,8 @@ This playbook keeps the fast, clear order of Claiming Ideas and the fact base an
 1. Create an empty GitHub repository and attach it to the Claude project.
 2. Copy the starter: `build.mjs`, `package.json`, `.nvmrc`, `.gitignore`, `.htmlvalidate.json`, `site.config.json`, `site/`, `scripts/`, `research/`, `docs/templates/`, `.github/workflows/checks.yml`, `PLAYBOOK.md`.
 3. Leave `content/` with only the placeholder home, glossary and sources pages.
-4. Run `npm install && npm run check`. It must pass before anything else.
+4. **Reset the starter** when copying from a finished site: delete `content/{en,ar}/*` except the placeholders, empty `research/facts.yml`, `names.yml`, `skipped.md` and `transcripts/`, clear `chapter-times.yml`, remove the old episode's widgets from `widgets.js` (keep `self-check` and the helpers), and remove old `docs/outline.md`, `design-brief.md` and `audit.md`. Keep the previous site's `style.css` and fonts until stage 7 so the site stays buildable.
+5. Run `npm install && npm run check`. It must pass before anything else.
 
 **Done when:** the pull request is merged and the Checks workflow is green on `main`.
 
@@ -63,6 +70,7 @@ This playbook keeps the fast, clear order of Claiming Ideas and the fact base an
 **Steps**
 1. Save the file exactly as received as `research/transcripts/S1-original.txt`.
 2. Clean it: `node scripts/clean-transcript.mjs research/transcripts/S1-original.txt > research/transcripts/S1.txt`. Result: one `[h:mm:ss] text` line per caption, chapter markers kept as `## …` lines. If the transcript has no timestamps but has `### Chapter N` markers, each line is numbered `[NN.LLL]` (chapter.line) instead, and facts cite `S1@07.024`; ask for the video's chapter times so the site can still link to each chapter's moment.
+   Write each chapter's start time in `research/chapter-times.yml` (from the video description, or from the owner).
 3. Fill in `research/sources.yml` for S1: title (original and English), publisher, host, guest and their role, URL, date, language, length, and where the transcript came from (who translated it).
 4. Read the whole transcript once. In `research/skipped.md`, list what will not be used, with timestamps: trailer, sponsor reads, app promotion, off-topic stretches, closing chat.
 5. Set `episode.video` and `episode.length` in `site.config.json`.
@@ -128,7 +136,8 @@ This playbook keeps the fast, clear order of Claiming Ideas and the fact base an
    - for story sites, narrative sections under `##` headings, every paragraph ending with its fact codes.
 3. Write the home page (`00-home.md`): the episode's argument in one paragraph, how to use the site, `{{chapters}}`, and about the guest.
 4. Style rules: plain words, short sentences, name the guest sparingly, attribute opinions ("in his view"), never state more than the source does, and keep numbers exactly as said.
-5. Run `npm run check` and send the English to the owner.
+5. **Claims about health, psychology, money or religion** need extra care. Where the guest gives advice as fact (for example "stress causes illness"), mark the fact `opinion`, word it as the guest's view, and add the research picture in "The idea, explained" with a source. Verify every Qur'an verse and hadith against a primary reference (sura:verse; collection and number, with the grading) and put the reference in the fact's `note`.
+6. Run `npm run check` and send the English to the owner.
 
 **Prompt**
 > Write the English chapters in `content/en/` from `docs/templates/chapter.md`, following the approved outline and citing `research/facts.yml` with `<!-- F… -->` codes on every paragraph and bullet. Link each point to its moment in the video. Write the home page. Run `npm run check` until it passes, then give me the list of facts still marked `check` or `disputed` that the text uses.
@@ -145,8 +154,9 @@ This playbook keeps the fast, clear order of Claiming Ideas and the fact base an
 1. In each chapter add **The idea, explained** (marked `<!-- explained -->` under the heading): the general concept behind the story, an analogy, a comparison table where it helps, and outside sources linked inline. This is where the reader learns more than the episode alone gives.
 2. Add **Key terms** to each chapter and build `glossary.md`: term, Arabic, meaning, chapter number.
 3. Fill `sources.md`: the episode (with how quotes were translated or condensed), every outside source and where it is used, and the disclaimer ("an independent study aid, not affiliated with…").
-4. Write the **Arabic** in `content/ar/` with the same file names and the same fact codes. Use the Arabic spellings from `names.yml`. Write natural Arabic, not a word-for-word translation; keep numbers, dates and quotes exact. Fill the Arabic strings in `site.config.json`.
-5. Run `npm run check`. `check:chapters` fails if the two languages cite different facts in any chapter.
+4. Write the **Arabic** in `content/ar/` with the same file names and the same fact codes. Use the Arabic spellings from `names.yml`. Write natural Arabic, not a word-for-word translation; keep numbers, dates and quotes exact. When the episode is in Arabic, quote the guest's **own words** from the transcript (lightly tidied, never re-translated from our English), and give Qur'an verses in their exact text. Fill the Arabic strings in `site.config.json`.
+5. Latin citations inside Arabic text (paper titles, DOIs, author names in brackets) get scrambled by the right-to-left algorithm. `build.mjs` marks such links `dir="ltr"`; check a few on the Arabic sources page anyway.
+6. Run `npm run check`. `check:chapters` fails if the two languages cite different facts in any chapter.
 
 **Prompt**
 > Add "The idea, explained" and "Key terms" to every English chapter, with outside sources linked inline, and fill the glossary and sources pages. Then write the Arabic versions of every page in `content/ar/` with the same fact codes, using the spellings in `research/names.yml`. Run `npm run check` until it passes.
@@ -175,7 +185,11 @@ This playbook keeps the fast, clear order of Claiming Ideas and the fact base an
 - all text in both languages inside `widgets.js`; works right-to-left;
 - usable on a phone and by keyboard; redraws when the theme changes;
 - the page still makes sense if the widget fails (a still image or a sentence of text);
-- numbers in a widget that come from the episode must match `facts.yml`; made-up data is labelled "illustrative".
+- numbers in a widget that come from the episode must match `facts.yml`; made-up data is labelled "illustrative";
+- colours only from the CSS variables, so the widget follows the theme and the stage 7 restyle without changes;
+- anything saved goes in `localStorage` under one versioned key (`<site>:<tool>:v1`), wrapped in `try`/`catch`, and the tool works when storage is blocked;
+- do not number figures inside a widget: `site.js` numbers them ("Fig. 4.1"), and skips tools that are a page of their own;
+- test in a real browser over `http://` (for example `python3 -m http.server` in `dist/`), not by opening the file; fonts and storage behave differently under `file://`. A short Playwright script that opens every page in both languages and themes at 375 px and fails on console errors or sideways scrolling catches most problems.
 
 **A page of its own:** if the signature tool needs a whole page (like "My crisis kit" on Life on Replay), add it as `content/{en,ar}/<slug>.md`, list the slug in `pages` in `site.config.json`, and give it a label of the same name under `ui.<lang>`. It then joins the menu, the footer and the page sequence after the last chapter. A tool that reads its items from a Markdown list inside its `<div>` keeps all its text in the content files, and the list is the fallback if the script fails.
 
@@ -201,6 +215,7 @@ This playbook keeps the fast, clear order of Claiming Ideas and the fact base an
 3. Replace the palette, fonts and motif in `site/assets/style.css` and `fonts.css`. Set `themeColor` in `site.config.json`.
 4. Make the share images `site/assets/og-en.png` and `og-ar.png` (1200 × 630) and the favicon.
 5. Check Arabic: no letter-spacing or uppercase on Arabic text, correct right-to-left mirroring of arrows and layout.
+6. Check what the new decoration does to old parts: dropdown menus must sit above decorative bands (`z-index`), animations and reveal effects must be switched off in print, and accent colours used for **text** need their own darker token (for example `--amber-text`) to reach 4.5:1 contrast, while the bright accent stays for lines and fills.
 
 **Prompt**
 > Read `docs/templates/design-brief.md` and the episode outline, and write `docs/design-brief.md` with a concept for this episode. After I approve it, restyle `site/assets/style.css` and the fonts to match, make the two share images, and show me screenshots of the home page and one chapter in both languages, light and dark, on desktop and phone.
@@ -230,6 +245,11 @@ This playbook keeps the fast, clear order of Claiming Ideas and the fact base an
 - [ ] Speed: fonts preloaded, no outside requests other than Cloudflare Web Analytics, images compressed.
 - [ ] Sharing: paste a chapter link into WhatsApp or X and check the preview in both languages.
 - [ ] The disclaimer and podcast credit are on every page.
+- [ ] Every DOI and outside link opens the right work. (Where `doi.org` and Crossref are blocked, confirm each by searching its title.)
+- [ ] Print the signature tool page if it is meant to be printed.
+- [ ] Open the menus on a phone over the live site and check nothing is hidden under the header.
+
+Write the results in `docs/audit.md`, so the next project can see what was checked.
 
 **Prompt**
 > Audit the site against the stage 8 checklist in PLAYBOOK.md. Fix what you can, and list for me anything that needs my decision.
@@ -255,7 +275,7 @@ This playbook keeps the fast, clear order of Claiming Ideas and the fact base an
    | Node version | from `.nvmrc` (set `NODE_VERSION` if Cloudflare ignores it) |
 
 3. Turn on **Web Analytics** in the Pages project (cookie-free; `_headers` already allows it).
-4. Set `url` in `site.config.json` to the final address and push.
+4. Set `url` in `site.config.json` to the final address and push. Cloudflare may not give you the name you planned (this repository is `Fight`, the site became `lifeonreplay.pages.dev`), so set it after the project exists; the share images and canonical links depend on it.
 5. Optional, later:
    - **Custom domain**: add it in the Pages project, then use Bulk Redirects so `name.pages.dev` and `www` point to it (as King Abdulaziz does).
    - **Contact form**: a Pages Function plus a Worker with Turnstile and Email Routing (see the King Abdulaziz README for the recipe).
@@ -274,3 +294,8 @@ This playbook keeps the fast, clear order of Claiming Ideas and the fact base an
 - **Avoid:** heavy libraries for the signature tool unless trimmed and self-hosted, with a still-image fallback.
 - **Avoid:** inline `onclick` and outside fonts or scripts; the security policy in `site/_headers` blocks them.
 - **Avoid:** naming the guest in every sentence (Claiming Ideas renamed and cut mentions in its second PR).
+- **Keep:** the owner reviewing on the preview address on their phone. The one real bug the owner found on Life on Replay (chapter 1 hidden under the band in the menu) came from looking at the live site on a phone, not from any check.
+- **Keep:** a configurable `pages` list in `site.config.json` for pages after the chapters, instead of editing `build.mjs` per project.
+- **Keep:** a transcript without timestamps is fine. Number the lines by chapter (`[07.024]`) and take chapter times from the video description.
+- **Avoid:** letting a comment, review or outside opinion change the content without the owner saying so. Bring it to the owner and follow their decision.
+- **Avoid:** guessing at religious references. Each verse and hadith is checked and cited, or left as the guest's paraphrase.
