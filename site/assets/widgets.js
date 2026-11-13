@@ -196,7 +196,7 @@
     title(el, T.replayTitle);
     var board = h('div', { class: 'scoreboard' }, [
       h('span', { class: 'label', text: T.replayLast }),
-      h('div', { class: 'score' }, [h('span', { text: T.replayYou }), h('b', { class: 'big-stat', text: '0 – 2' }), h('span', { text: T.replayThem })]),
+      h('div', { class: 'score' }, [h('span', { text: T.replayYou }), h('b', { class: 'big-stat', text: '0-2' }), h('span', { text: T.replayThem })]),
     ]);
     var bar = h('div', { class: 'meter' }, [h('i')]);
     var clock = h('span', { class: 'label clock', text: "0'" });

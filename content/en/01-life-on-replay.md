@@ -23,7 +23,7 @@ starts: "2:28"
 
 <!-- explained -->
 
-### Three truths, one aim
+### What the three truths do
 
 Each of the three truths takes weight off the moment of crisis. The first moves the event out of the "this should not be happening" column: for a believer it was written, so arguing with it is like shouting at a recording. The second says the load fits the carrier. The third keeps the door open: what looks like loss today may turn out otherwise.
 
@@ -37,7 +37,7 @@ Each of the three truths takes weight off the moment of crisis. The first moves 
 
 Outside the language of faith, psychologists describe something close to the first truth as **acceptance**: separating what can no longer be changed from what still can, and spending effort only on the second. Acceptance-based therapies treat this as a skill that lowers distress, not as giving up ([Hayes et al., 2006](https://doi.org/10.1016/j.brat.2005.06.006)).
 
-The third truth has a research cousin too. Many people report **post-traumatic growth** after a hard event: closer relationships, new priorities, a sense of strength they did not know they had ([Tedeschi & Calhoun, 2004](https://doi.org/10.1207/s15327965pli1501_01)). Growth is not guaranteed and does not erase the pain, but it is common enough that "this may turn out to hold good" is a reasonable expectation, not wishful thinking.
+Research has a parallel for the third truth as well. Many people report **post-traumatic growth** after a hard event: closer relationships, new priorities, a sense of strength they did not know they had ([Tedeschi & Calhoun, 2004](https://doi.org/10.1207/s15327965pli1501_01)). Growth is not guaranteed and does not erase the pain, but it is common enough that "this may turn out to hold good" is a reasonable expectation.
 
 ## Try it
 

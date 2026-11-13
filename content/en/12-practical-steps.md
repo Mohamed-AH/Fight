@@ -60,7 +60,7 @@ Several of his steps match well-tested findings:
 
 His circles idea is a way of stopping a crisis in one area of life from spilling into the others. When work goes wrong, home and friends can still be places where things go right, if you don't bring the crisis in with you.
 
-### Option two
+### The second choice
 
 The closing advice, for career setbacks and unemployment, joins two halves of the episode: keep striving, and treat the "second choice" you end up with as possibly the place where the good was waiting, as Tabuk was for him.
 

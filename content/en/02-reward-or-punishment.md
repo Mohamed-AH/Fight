@@ -28,11 +28,11 @@ starts: "8:12"
 
 <!-- explained -->
 
-### Expecting the weather
+### Expecting hardship
 
 His argument is about **expectations**. If you believe life should be smooth, every hardship arrives as an injustice and hurts twice: once as the event and again as the outrage. If you expect hardship as part of the climate, it still hurts, but only once. That is why he insists that no one is spared, from neighbours to kings, and that "may you never see harm" is, strictly, a wish for death.
 
-### Some adversity, not none
+### What research says about adversity
 
 Research supports a version of this. In a large study following people over several years, those who had lived through **some** adversity were more resilient and more satisfied with life than those with a lot of adversity, and also than those with **none** ([Seery, Holman & Silver, 2010](https://doi.org/10.1037/a0021344)). People who have drunk from both cups seem to handle the next bitter one better.
 

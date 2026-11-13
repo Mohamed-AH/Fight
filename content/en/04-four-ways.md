@@ -24,9 +24,9 @@ starts: "25:46"
 
 <!-- explained -->
 
-### A ladder, not a verdict
+### Four levels of response
 
-The four levels are a classic scheme in Islamic writing on the heart, found for example in Ibn al-Qayyim. They describe the **response**, not the event: two people can face the same loss and stand on different rungs.
+The four levels are a classic scheme in Islamic writing on the heart, found for example in Ibn al-Qayyim. They describe the **response**, not the event: two people can face the same loss and stand on different levels.
 
 | Level | Inside | Outside | What changes going up |
 | --- | --- | --- | --- |
@@ -35,7 +35,7 @@ The four levels are a classic scheme in Islamic writing on the heart, found for 
 | Contentment | Trust | Calm | Stops feeling it as an injustice |
 | Gratitude | Seeing a gift | Thanks | Sees good in it |
 
-The useful question is not "which rung am I on?" but "what would one rung up look like for me today?"
+A more useful question than "which level am I on?" is "what would one level up look like for me today?"
 
 ### Hardship is not a sign of being unloved
 
