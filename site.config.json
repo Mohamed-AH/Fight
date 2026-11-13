@@ -1,6 +1,6 @@
 {
   "_comment": "Every project-specific setting lives here. build.mjs and the checks read it; nothing else is hard-coded.",
-  "url": "https://fight.pages.dev",
+  "url": "https://lifeonreplay.pages.dev",
   "themeColor": "#1b1d26",
   "languages": [
     "en",
