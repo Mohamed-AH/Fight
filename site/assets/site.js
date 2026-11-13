@@ -30,7 +30,7 @@
   // figure labels: "Fig. 5.1"
   var n = (document.querySelector('.big-n') || {}).textContent;
   var fig = root.lang === 'ar' ? 'شكل' : 'Fig.';
-  document.querySelectorAll('.widget').forEach(function (w, i) {
+  document.querySelectorAll('.widget:not([data-widget="kit"])').forEach(function (w, i) {
     w.setAttribute('data-fig', fig + ' ' + (n ? parseInt(n, 10) + '.' : '') + (i + 1));
   });
   // close the chapter menu when clicking elsewhere

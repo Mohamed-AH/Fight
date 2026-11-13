@@ -408,3 +408,56 @@ html[lang="ar"] .kicker, html[lang="ar"] .pager small, html[lang="ar"] .drawer-l
 .widget .deal-io { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 6px; }
 .widget .deal-io p { margin: 2px 0 0; }
 @media (max-width: 560px) { .widget .deal-flow { grid-template-columns: 1fr 1fr; } .widget .deal-io { grid-template-columns: 1fr; } }
+
+/* ---------- study tools (stage 6) ---------- */
+.widget .ask { margin-top: -.3em; }
+.widget .row.spread { justify-content: space-between; }
+.widget .stack { display: flex; flex-direction: column; gap: 8px; }
+.widget button.chip.wide { text-align: start; border-radius: 12px; padding: 9px 12px; font-family: var(--f-body); font-size: .95rem; line-height: 1.4; }
+.widget button.chip.tiny { padding: 2px 8px; font-size: .65rem; margin-inline-start: 6px; }
+html[lang="ar"] .widget button.chip.tiny { font-size: .75rem; }
+.widget button:disabled { opacity: .55; cursor: default; }
+.widget button:focus-visible, .widget input:focus-visible, .widget a:focus-visible { outline: 2px solid var(--signal-text); outline-offset: 2px; }
+.widget .seg { display: inline-flex; flex-wrap: wrap; gap: 4px; }
+.widget .seg button { font-family: var(--f-body); font-size: .85rem; }
+.widget .q { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 12px; padding: 8px 0; border-bottom: 1px dashed var(--rule); }
+.widget .field { display: flex; flex-direction: column; gap: 4px; margin: 10px 0; }
+.widget .field label { font-size: .85rem; color: var(--ink-2); }
+.widget input[type="text"] { font: inherit; font-size: 1rem; padding: 9px 12px; border-radius: 10px; border: 1px solid var(--rule); background: var(--card); color: var(--ink); width: 100%; box-sizing: border-box; }
+.widget input[type="text"]::placeholder { color: var(--muted); opacity: .8; }
+.widget .empty { color: var(--muted); list-style: none; margin-inline-start: -1.1em; }
+.widget .scoreboard { text-align: center; padding: 12px; border-radius: 10px; background: var(--paper-2); }
+.widget .score { display: flex; justify-content: center; align-items: center; gap: 14px; margin-top: 6px; font-size: .95rem; }
+.widget .clock { direction: ltr; unicode-bidi: isolate; }
+.widget .meter { height: 6px; border-radius: 99px; background: var(--rule); margin: 12px 0 10px; overflow: hidden; }
+.widget .meter i { display: block; height: 100%; width: 0; background: var(--signal-text); }
+.widget .jar-wrap { max-width: 220px; margin: 10px auto 6px; }
+.widget .ladder .rung { font-size: 12px; }
+.widget .big-stat.small { font-size: 1.4rem; margin: 10px 0; }
+.widget .chip.take[aria-pressed="true"] { background: transparent; color: var(--muted); border-style: dashed; border-color: var(--muted); text-decoration: line-through; }
+.widget .scene { margin: 10px 0; }
+.widget .scene .ctx { margin: 0 0 8px; font-weight: 600; }
+.widget .circ { cursor: pointer; }
+.widget .out { margin-top: 12px; }
+.widget[data-widget="kit"] { padding-top: clamp(16px, 3vw, 24px); }
+.kit-list { list-style: none; margin: 8px 0 18px; padding: 0 !important; }
+.kit-list li { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: start; padding: 9px 4px; border-bottom: 1px solid var(--rule); margin: 0 !important; }
+.kit-list li::marker { content: none; }
+.kit-list input[type="checkbox"] { width: 20px; height: 20px; margin: 3px 0 0; accent-color: var(--signal-text); }
+.kit-list label { cursor: pointer; line-height: 1.45; }
+.kit-list li.on label { font-weight: 600; }
+.kit-list .ch { white-space: nowrap; text-decoration: none; padding-top: 3px; }
+.widget .actions { margin-top: 14px; }
+
+@media print {
+  .bar, .bottom-nav, .foot, .drawer, .chapter-head, .skip, .pager { display: none !important; }
+  body { background: #fff !important; color: #000 !important; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .reveal > * { opacity: 1 !important; transform: none !important; }
+  .widget { box-shadow: none !important; border: 0 !important; padding: 0 !important; background: none !important; }
+  .widget::before, .widget .actions, .widget .note, .kit-list input, .kit-list .ch { display: none !important; }
+  .kit-list li:not(.on), .widget .field.blank { display: none !important; }
+  .kit-list li { grid-template-columns: 1fr; border: 0; padding: 2px 0; }
+  .kit-list li.on label::before { content: "☐  "; }
+  .widget input[type="text"] { border: 0; border-bottom: 1px solid #999; border-radius: 0; padding: 4px 0; background: none; }
+}

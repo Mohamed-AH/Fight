@@ -177,6 +177,8 @@ This playbook keeps the fast, clear order of Claiming Ideas and the fact base an
 - the page still makes sense if the widget fails (a still image or a sentence of text);
 - numbers in a widget that come from the episode must match `facts.yml`; made-up data is labelled "illustrative".
 
+**A page of its own:** if the signature tool needs a whole page (like "My crisis kit" on Life on Replay), add it as `content/{en,ar}/<slug>.md`, list the slug in `pages` in `site.config.json`, and give it a label of the same name under `ui.<lang>`. It then joins the menu, the footer and the page sequence after the last chapter. A tool that reads its items from a Markdown list inside its `<div>` keeps all its text in the content files, and the list is the fallback if the script fails.
+
 **Prompt**
 > Build the signature tool and the "Try it" widgets from the outline in `site/assets/widgets.js`, following the widget rules in PLAYBOOK.md stage 6. Test each in English and Arabic, light and dark, on a phone-sized screen.
 

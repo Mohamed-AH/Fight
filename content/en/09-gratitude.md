@@ -38,6 +38,14 @@ He gives the reason himself: the exercise trains attention. Knowing you will nam
 3. Thank God for them.
 4. Keep going for at least a week before judging.
 
+## Try it
+
+<!-- explained -->
+
+<div class="widget" data-widget="three-blessings">
+<p>Write down three blessings from today. They are saved in your crisis kit, on this device only.</p>
+</div>
+
 ## Key terms
 
 <!-- explained -->

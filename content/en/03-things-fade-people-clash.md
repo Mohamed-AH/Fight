@@ -35,6 +35,14 @@ Adaptation works on bad things too, which is the hopeful half of the law: people
 
 The second law is not a counsel of despair. Marriage researchers find that most recurring disagreements between couples are "perpetual": rooted in differences of temperament that will not go away, so the aim is to manage them with understanding rather than to win ([The Gottman Institute](https://www.gottman.com/blog/managing-conflict-solvable-vs-perpetual-problems/)). His advice, to make allowance for the other person's nature, points the same way.
 
+## Try it
+
+<!-- explained -->
+
+<div class="widget" data-widget="waterfall">
+<p>Move through the days of the trip and watch the wow of the waterfall fade.</p>
+</div>
+
 ## Key terms
 
 <!-- explained -->

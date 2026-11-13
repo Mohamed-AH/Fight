@@ -35,6 +35,14 @@ starts: "17:28"
 
 القانون الثاني ليس دعوة إلى اليأس. يجد باحثو الزواج أن أكثر الخلافات المتكررة بين الأزواج «دائمة»: جذورها في اختلاف الطباع ولن تزول، فالمطلوب إدارتها بالتفهّم لا الانتصار فيها ([The Gottman Institute](https://www.gottman.com/blog/managing-conflict-solvable-vs-perpetual-problems/)). ونصيحته بأن يراعي كل طرف طبيعة الآخر تمضي في الاتجاه نفسه.
 
+## جرّبها
+
+<!-- explained -->
+
+<div class="widget" data-widget="waterfall">
+<p>تنقّل بين أيام الرحلة وشاهد دهشة الشلال تخفت.</p>
+</div>
+
 ## مصطلحات أساسية
 
 <!-- explained -->

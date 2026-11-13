@@ -48,6 +48,14 @@ How you talk to yourself matters. One finding: people who coach themselves in th
 | "It will always be like this" | When did a hard time last actually end? |
 | Harsh self-talk | Would I say this to a friend? |
 
+## Try it
+
+<!-- explained -->
+
+<div class="widget" data-widget="fair-comparison">
+<p>Compare yourself with the colleague in the villa on one area, then on all of life.</p>
+</div>
+
 ## Key terms
 
 <!-- explained -->

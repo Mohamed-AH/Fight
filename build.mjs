@@ -11,6 +11,7 @@ const OUT = path.join(ROOT, 'dist');
 const CONFIG = JSON.parse(fs.readFileSync(path.join(ROOT, 'site.config.json'), 'utf8'));
 const LANGS = CONFIG.languages;
 const UI = CONFIG.ui;
+const EXTRA = CONFIG.pages || ['glossary', 'sources'];
 const VIDEO = CONFIG.episode.video;
 const SITE = CONFIG.url.replace(/\/$/, '');
 const VIDEO_ID = (VIDEO.match(/[?&]v=([\w-]+)/) || [])[1] || '';
@@ -80,12 +81,12 @@ const chaptersOf = (pages) => pages.filter((p) => p.data.chapter).sort((a, b) =>
 const num = (n) => String(n).padStart(2, '0');
 
 function sequence(pages) {
-  return ['00-home', ...chaptersOf(pages).map((p) => p.slug), 'glossary', 'sources'].filter((s) => pages.some((p) => p.slug === s));
+  return ['00-home', ...chaptersOf(pages).map((p) => p.slug), ...EXTRA].filter((s) => pages.some((p) => p.slug === s));
 }
 
 function extras(lang, pages, cur) {
   const u = UI[lang];
-  return [['glossary', u.glossary], ['sources', u.sources]]
+  return EXTRA.map((s) => [s, u[s]])
     .filter(([s]) => pages.some((p) => p.slug === s))
     .map(([s, label]) => `<li class="extra"><a href="${hrefFor(s)}"${cur(s)}>${esc(label)}</a></li>`).join('');
 }
@@ -193,7 +194,7 @@ ${body}
 </main>
 <footer class="foot">
   <p>${esc(u.footer)}</p>
-  <p><a href="${VIDEO}" target="_blank" rel="noopener">${u.watch}</a>${pages.some((p) => p.slug === 'glossary') ? ` · <a href="glossary.html">${u.glossary}</a>` : ''}${pages.some((p) => p.slug === 'sources') ? ` · <a href="sources.html">${u.sources}</a>` : ''}</p>
+  <p><a href="${VIDEO}" target="_blank" rel="noopener">${u.watch}</a>${EXTRA.filter((s) => pages.some((p) => p.slug === s)).map((s) => ` · <a href="${hrefFor(s)}">${esc(u[s])}</a>`).join('')}</p>
 </footer>
 ${bottomNav(lang, pages, slug)}
 <script src="../assets/site.js" defer></script>
@@ -240,6 +241,7 @@ function buildLang(lang) {
       const idx = chapters.indexOf(p);
       const prev = chapters[idx - 1];
       const next = chapters[idx + 1];
+      const firstExtra = EXTRA.find((s) => pages.some((x) => x.slug === s));
       body = `<section class="chapter-head">
   <div class="lattice" aria-hidden="true"></div>
   <span class="big-n" aria-hidden="true">${num(p.data.chapter)}</span>
@@ -252,7 +254,7 @@ function buildLang(lang) {
 <nav class="pager" aria-label="${u.chapters}">
   ${prev ? `<a class="prev" href="${hrefFor(prev.slug)}"><small>${u.prev}</small>${esc(prev.data.title)}</a>` : '<span></span>'}
   ${next ? `<a class="next" href="${hrefFor(next.slug)}"><small>${u.next}</small>${esc(next.data.title)}</a>`
-    : (pages.some((x) => x.slug === 'glossary') ? `<a class="next" href="glossary.html"><small>${u.next}</small>${u.glossary}</a>` : '<span></span>')}
+    : (firstExtra ? `<a class="next" href="${hrefFor(firstExtra)}"><small>${u.next}</small>${esc(u[firstExtra])}</a>` : '<span></span>')}
 </nav>`;
     } else {
       body = `<section class="chapter-head plain"><div class="lattice" aria-hidden="true"></div></section><article class="prose reveal">${html}</article>`;

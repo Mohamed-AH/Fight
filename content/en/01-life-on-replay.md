@@ -39,6 +39,14 @@ Outside the language of faith, psychologists describe something close to the fir
 
 The third truth has a research cousin too. Many people report **post-traumatic growth** after a hard event: closer relationships, new priorities, a sense of strength they did not know they had ([Tedeschi & Calhoun, 2004](https://doi.org/10.1207/s15327965pli1501_01)). Growth is not guaranteed and does not erase the pain, but it is common enough that "this may turn out to hold good" is a reasonable expectation, not wishful thinking.
 
+## Try it
+
+<!-- explained -->
+
+<div class="widget" data-widget="replay">
+<p>Replay last night's match and watch whether the score changes.</p>
+</div>
+
 ## Key terms
 
 <!-- explained -->
