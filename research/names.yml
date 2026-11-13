@@ -1,0 +1,12 @@
+# Names of people, places and key terms as written on the site, in English and Arabic.
+# Internal only.
+#
+#   en:          spelling used on the English site
+#   ar:          spelling used on the Arabic site
+#   transcript:  spelling in the transcript, if different
+#   check:       true = please verify the spelling against the audio
+#   note:        why it needs checking
+
+people: []
+places: []
+terms: []

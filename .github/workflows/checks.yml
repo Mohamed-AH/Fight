@@ -1,0 +1,39 @@
+# Runs on every pull request and every push to main: builds the site and runs the checks.
+# Cloudflare Pages does the real build and publishing; this only reports problems.
+name: Checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build the site
+        run: npm run build
+
+      - name: Facts quoted correctly from the transcript
+        run: npm run check:facts
+
+      - name: Chapters cite their facts in both languages
+        run: npm run check:chapters
+
+      - name: Built pages (links, titles, descriptions, no leaked codes)
+        run: npm run check:site
+
+      - name: HTML is valid
+        run: npx --yes html-validate@8.24.1 "dist/**/*.html"

@@ -1,0 +1,25 @@
+# The fact base: one entry per claim used on the site. Internal only (not published).
+#
+# Fields:
+#   id:      F001, F002, ... (never reuse an id; new facts get the next free number)
+#   chapter: the chapter's file name without .md (e.g. 03-research-centres)
+#   claim:   the fact in one sentence, in English
+#   source:  "SOURCE_ID@h:mm:ss" (source ids are in sources.yml)
+#   quote:   words copied exactly from the transcript at that timestamp, so the
+#            claim can be checked. `npm run check:facts` verifies them.
+#   status:  from-source  stated by the source, not yet checked elsewhere
+#            check        needs checking (unclear translation, name, date or number)
+#            disputed     the source itself, or sources, disagree (see note)
+#            opinion      the speaker's view, not a fact; the site presents it as their view
+#            verified     confirmed against a second source (say which in note)
+#   note:    anything a reviewer should know
+#
+# Example:
+# - id: F001
+#   chapter: 01-introduction
+#   claim: "The guest founded the company in 2016."
+#   source: "S1@0:04:12"
+#   quote: "we started in 2016"
+#   status: from-source
+#   note: ""
+[]
