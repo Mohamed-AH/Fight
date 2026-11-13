@@ -497,3 +497,7 @@ html[dir="rtl"] .widget .meter i { background: linear-gradient(-90deg, var(--sig
 @keyframes weave { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
 @keyframes weave-rtl { from { clip-path: inset(0 0 0 100%); } to { clip-path: inset(0 0 0 0); } }
 @keyframes dawn { from { background-position: 0 -120px, 0 -120px; } to { background-position: 0 0, 0 0; } }
+
+/* the chapters menu sits above the Sadu band, with room below the header */
+.toc { z-index: 30; }
+.toc ol { z-index: 30; top: calc(100% + 22px); }
