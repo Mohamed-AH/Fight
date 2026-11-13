@@ -44,6 +44,14 @@ The man who counted only his good days was keeping a different kind of record: n
 
 The figure he gives, about 90 mentions of patience, goes back to Imam Ahmad and is quoted by Ibn al-Qayyim, who lists the many forms those mentions take ([Ibn al-Qayyim, *Where patience is mentioned in the Qur'an*](https://abdurrahman.org/2014/10/03/where-patience-is-mentioned-in-the-quraan-imam-ibn-al-qayyim)).
 
+## Try it
+
+<!-- explained -->
+
+<div class="widget" data-widget="pebble-jar">
+<p>Drop a pebble for each good day of the past week, then count your age the way the man in the story did.</p>
+</div>
+
 ## Key terms
 
 <!-- explained -->

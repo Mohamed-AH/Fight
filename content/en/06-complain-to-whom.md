@@ -38,6 +38,14 @@ Research on the social sharing of emotions finds that simply re-telling a painfu
 | Someone wise and discreet | You get a new angle and a next step |
 | God | In his view, the complaint that does not wound |
 
+## Try it
+
+<!-- explained -->
+
+<div class="widget" data-widget="who-to-tell">
+<p>Sort the people you might talk to with the guest's two questions: sound judgment, and keeping secrets.</p>
+</div>
+
 ## Key terms
 
 <!-- explained -->

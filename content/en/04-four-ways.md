@@ -41,6 +41,14 @@ The useful question is not "which rung am I on?" but "what would one rung up loo
 
 His second point removes a common extra burden: the belief that suffering proves God is displeased. The examples he chooses, the Prophet at Uhud and at the Kaaba, Job, Jacob and Abraham, are the people closest to God in his tradition, and each was tested hard.
 
+## Try it
+
+<!-- explained -->
+
+<div class="widget" data-widget="four-ways">
+<p>Pick the sentence closest to how you received a recent setback, and see what one step up looks like.</p>
+</div>
+
 ## Key terms
 
 <!-- explained -->

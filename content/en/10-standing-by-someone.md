@@ -52,6 +52,14 @@ His cousin's words, "you made the right call with what you knew then", correct a
 
 He says kind words help healing. Reviews of trials in which doctors were trained to communicate with more warmth and clarity find small but real improvements in patients' health outcomes ([Kelley et al., 2014](https://doi.org/10.1371/journal.pone.0094207)). A careless sentence at a bedside is remembered for years; the mother whose son is three today still remembers hers.
 
+## Try it
+
+<!-- explained -->
+
+<div class="widget" data-widget="words-that-heal">
+<p>For four moments from the episode, choose between the words that were said and a kinder version.</p>
+</div>
+
 ## Key terms
 
 <!-- explained -->

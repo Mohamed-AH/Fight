@@ -64,6 +64,20 @@ His circles idea is a way of stopping a crisis in one area of life from spilling
 
 The closing advice, for career setbacks and unemployment, joins two halves of the episode: keep striving, and treat the "second choice" you end up with as possibly the place where the good was waiting, as Tabuk was for him.
 
+## Try it
+
+<!-- explained -->
+
+<div class="widget" data-widget="circles">
+<p>Move a work problem that has found its way home back into its own circle.</p>
+</div>
+
+<div class="widget" data-widget="imagine-without">
+<p>Take away health, family, friends and work one by one, then give them back.</p>
+</div>
+
+When you are ready, gather the steps that fit you into [My crisis kit](kit.md).
+
 ## Key terms
 
 <!-- explained -->

@@ -6,6 +6,12 @@
     "en",
     "ar"
   ],
+  "_pages": "Pages after the chapters, in order. Each slug needs a label of the same name under ui.<lang>.",
+  "pages": [
+    "kit",
+    "glossary",
+    "sources"
+  ],
   "episode": {
     "video": "https://www.youtube.com/watch?v=MSsimWznk3U",
     "length": "1:46:51"
@@ -41,7 +47,8 @@
       "fig": "Fig.",
       "mainNav": "Page navigation",
       "topNav": "Site menu",
-      "table": "Table"
+      "table": "Table",
+      "kit": "My crisis kit"
     },
     "ar": {
       "dir": "rtl",
@@ -67,7 +74,8 @@
       "fig": "شكل",
       "mainNav": "التنقل بين الصفحات",
       "topNav": "قائمة الموقع",
-      "table": "جدول"
+      "table": "جدول",
+      "kit": "عُدّتي للأزمات"
     }
   }
 }
