@@ -215,7 +215,7 @@ Life on Replay kept tools and design in separate pull requests (PR 4 and PR 5). 
 3. Replace the palette, fonts and motif in `site/assets/style.css` and `fonts.css`. Set `themeColor` in `site.config.json`.
 4. Make the share images `site/assets/og-en.png` and `og-ar.png` (1200 × 630) and the favicon.
 5. Check Arabic: no letter-spacing or uppercase on Arabic text, correct right-to-left mirroring of arrows and layout.
-6. Check what the new decoration does to old parts: dropdown menus must sit above decorative bands (`z-index`), animations and reveal effects must be switched off in print, and accent colours used for **text** need their own darker token (for example `--amber-text`) to reach 4.5:1 contrast, while the bright accent stays for lines and fills.
+6. Check what the new decoration does to old parts: dropdown menus must sit above decorative bands (`z-index`), the header and bottom bar must use solid colours (not see-through with blur), animations and reveal effects must be switched off in print, and accent colours used for **text** need their own darker token (for example `--amber-text`) to reach 4.5:1 contrast, while the bright accent stays for lines and fills.
 
 **Prompt**
 > Read `docs/templates/design-brief.md` and the episode outline, and write `docs/design-brief.md` with a concept for this episode. After I approve it, restyle `site/assets/style.css` and the fonts to match, make the two share images, and show me screenshots of the home page and one chapter in both languages, light and dark, on desktop and phone.
@@ -251,6 +251,7 @@ Life on Replay kept tools and design in separate pull requests (PR 4 and PR 5). 
 - [ ] **Plain writing:** `check:style` passes (no stock phrases, dashes or leftover scaffolding), then read three chapters aloud in each language and cut anything that sounds like a template: clever "X, not Y" headings, padded lists of three, lines that restate the previous one.
 - [ ] Print the signature tool page if it is meant to be printed.
 - [ ] Open the menus on a phone over the live site and check nothing is hidden under the header.
+- [ ] **Older phones:** open the live site on an old iPhone (an iPhone 7 runs at most iOS 15) or a friend's old Android. Fixed and sticky bars must be solid: older Safari drops `color-mix()` and blur, and the page shows through. Give every bar a solid background, and treat newer CSS (`color-mix`, `:has`, nesting) as an extra over a working fallback.
 
 Write the results in `docs/audit.md`, so the next project can see what was checked.
 
